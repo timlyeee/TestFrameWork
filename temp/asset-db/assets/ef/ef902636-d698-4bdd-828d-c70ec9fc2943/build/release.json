@@ -1,0 +1,41 @@
+[
+    1,
+    0,
+    0,
+    [
+        [
+            "cc.JsonAsset",
+            [
+                "_name",
+                "json"
+            ],
+            1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            3
+        ]
+    ],
+    [
+        [
+            0,
+            "autoTestConfig",
+            {
+                "isAutoTest": false,
+                "server": "192.168.52.195",
+                "port": 8000,
+                "socketType": "ws",
+                "timeOut": 30000
+            }
+        ]
+    ],
+    0,
+    0,
+    [],
+    [],
+    []
+]

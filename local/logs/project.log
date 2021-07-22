@@ -1,0 +1,154 @@
+2021-07-22 16:21:30-error: (node:18588) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `CocosCreator --trace-warnings ...` to show where the warning was created)
+2021-07-22 16:21:37-log: [Package] menu@1.0.0 enable
+2021-07-22 16:21:37-log: [Package] profile@1.0.0 enable
+2021-07-22 16:21:37-log: [Package] messages@1.0.0 enable
+2021-07-22 16:21:37-log: [Package] program@1.0.0 enable
+2021-07-22 16:21:37-log: [Package] device@1.0.1 enable
+2021-07-22 16:21:37-log: [Package] ui-kit@1.0.0 enable
+2021-07-22 16:21:37-log: [Package] tester@1.0.0 enable
+2021-07-22 16:21:37-log: [Package] preferences@1.0.0 enable
+2021-07-22 16:21:38-log: Start Quick Compile
+2021-07-22 16:21:40-log: QuickCompiler:Compile target 0: 2.475s
+2021-07-22 16:21:42-log: QuickCompiler:Compile target 1: 1.436s
+2021-07-22 16:21:42-log: Quick Compile: 3968ms
+2021-07-22 16:21:42-log: Setup mods mgr.: 268.69ms
+2021-07-22 16:21:42-log: [Package] engine@1.0.5 enable
+2021-07-22 16:21:44-error: Failed to load import map at E:\Cases\TestFrameWork\import-map.json: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\import-map.json'
+2021-07-22 16:21:44-log: [Package] programming@1.0.0 enable
+2021-07-22 16:21:44-log: [Package] asset-db@1.0.0 enable
+2021-07-22 16:21:44-log: [Package] console@1.0.0 enable
+2021-07-22 16:21:44-log: [Package] scene@1.0.0 enable
+2021-07-22 16:21:44-log: [Package] project@1.0.1 enable
+2021-07-22 16:21:44-log: [Package] about@1.0.0 enable
+2021-07-22 16:21:45-log: [Package] server@1.0.0 enable
+2021-07-22 16:21:45-log: [Package] utils@1.0.0 enable
+2021-07-22 16:21:45-log: [Package] assets@1.0.0 enable
+2021-07-22 16:21:45-log: [Package] inspector@1.0.0 enable
+2021-07-22 16:21:45-log: [Package] hierarchy@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] preview@1.0.1 enable
+2021-07-22 16:21:46-log: [Package] animator@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] builder@1.2.8 enable
+2021-07-22 16:21:46-log: [Package] node-library@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] shortcuts@1.0.1 enable
+2021-07-22 16:21:46-log: [Package] importer@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] package-asset@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] reference-image@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] channel-upload-tools@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] alipay-mini-game@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] android@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] baidu-mini-game@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] bytedance-mini-game@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] huawei-agc@1.0.0 enable
+2021-07-22 16:21:46-log: [Package] ios@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] ios-app-clip@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] mac@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] native@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] ohos@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] web-desktop@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] web-mobile@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] wechatgame@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] windows@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] cocos-play@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] huawei-quick-game@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] link-sure@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] oppo-mini-game@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] qtt@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] vivo-mini-game@1.0.0 enable
+2021-07-22 16:21:47-log: [Package] cocos-service@3.0.1 enable
+2021-07-22 16:21:47-log: [Package] extension@3.0.7 enable
+2021-07-22 16:21:48-log: [Package] im-plugin@3.0.4 enable
+2021-07-22 16:21:48-log: [Package] lightmap@1.0.1 enable
+2021-07-22 16:21:48-log: [Package] simple-1625559728268@1.0.0 enable
+2021-07-22 16:21:49-log: [Build] init urlMap
+2021-07-22 16:21:49-log: [Build] Engine location: E:\engine\bin\.cache\dev\editor
+2021-07-22 16:21:49-log: [Build] 'cc.ParticleSystem2D.color' hides inherited property 'cc.Renderable2D.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2021-07-22 16:21:50-error: [Window] { status: 405, msg: 'Missing Session ID', path: 'session/code' }
+2021-07-22 16:21:53-error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts: SyntaxError: unknown: Unexpected token (101:92)
+
+   99 |         while (cbList.length != 0){
+  100 |             
+> 101 |             Framework._client.websocket.onmessage=((rcode: ReceivedCode, message: any)=>void)=>{
+      |                                                                                             ^
+  102 |
+  103 |             }
+  104 |             Framework._client.websocket.send("@Scene Node "+this.node.scene.name+""+cbList[0].name).
+2021-07-22 16:21:53-log: [Scene] begin init
+2021-07-22 16:21:53-log: [Scene] require engine end
+2021-07-22 16:21:53-log: [Scene] Serialize end
+2021-07-22 16:21:53-log: [Scene] configureStartup end
+2021-07-22 16:21:53-info: [Scene] WebGL2 device initialized.
+2021-07-22 16:21:53-info: [Scene] RENDERER: ANGLE (NVIDIA, NVIDIA GeForce GTX 1660 SUPER Direct3D11 vs_5_0 ps_5_0, D3D11-30.0.14.7141)
+2021-07-22 16:21:53-info: [Scene] VENDOR: Google Inc. (NVIDIA)
+2021-07-22 16:21:53-info: [Scene] VERSION: WebGL 2.0 (OpenGL ES 3.0 Chromium)
+2021-07-22 16:21:53-info: [Scene] DPR: 1.25
+2021-07-22 16:21:53-info: [Scene] SCREEN_SIZE: 1268 x 803
+2021-07-22 16:21:53-info: [Scene] MAX_VERTEX_ATTRIBS: 16
+2021-07-22 16:21:53-info: [Scene] MAX_VERTEX_UNIFORM_VECTORS: 4095
+2021-07-22 16:21:53-info: [Scene] MAX_FRAGMENT_UNIFORM_VECTORS: 1024
+2021-07-22 16:21:53-info: [Scene] MAX_TEXTURE_IMAGE_UNITS: 16
+2021-07-22 16:21:53-info: [Scene] MAX_VERTEX_TEXTURE_IMAGE_UNITS: 16
+2021-07-22 16:21:53-info: [Scene] MAX_UNIFORM_BUFFER_BINDINGS: 24
+2021-07-22 16:21:53-info: [Scene] MAX_UNIFORM_BLOCK_SIZE: 65536
+2021-07-22 16:21:53-info: [Scene] DEPTH_BITS: 24
+2021-07-22 16:21:53-info: [Scene] STENCIL_BITS: 8
+2021-07-22 16:21:53-info: [Scene] UNIFORM_BUFFER_OFFSET_ALIGNMENT: 256
+2021-07-22 16:21:53-info: [Scene] MAX_TEXTURE_MAX_ANISOTROPY_EXT: 34047
+2021-07-22 16:21:53-info: [Scene] USE_VAO: true
+2021-07-22 16:21:53-info: [Scene] COMPRESSED_FORMAT: dxt 
+2021-07-22 16:21:53-log: [Scene] Cocos Creator v3.3.0
+2021-07-22 16:21:53-error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts: SyntaxError: unknown: Unexpected token (101:92)
+
+   99 |         while (cbList.length != 0){
+  100 |             
+> 101 |             Framework._client.websocket.onmessage=((rcode: ReceivedCode, message: any)=>void)=>{
+      |                                                                                             ^
+  102 |
+  103 |             }
+  104 |             Framework._client.websocket.send("@Scene Node "+this.node.scene.name+""+cbList[0].name).
+2021-07-22 16:21:53-warn: [Scene] unknown id
+2021-07-22 16:21:53-info: [Scene] Shader 'standard|standard-vs|standard-fs' compilation succeeded.
+2021-07-22 16:21:53-info: [Scene] Shader 'standard|standard-vs|standard-fs|CC_FORWARD_ADD1' compilation succeeded.
+2021-07-22 16:21:53-info: [Scene] Shader 'standard|shadow-caster-vs:vert|shadow-caster-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'unlit|unlit-vs:vert|unlit-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'clear-stencil|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_ALPHA_TEST1|USE_TEXTURE1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1|IS_GRAY1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1|IS_GRAY1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'graphics|vs:vert|fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'particle|particle-vs-legacy:lpvs_main|tinted-fs:add' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'particle-gpu|particle-vs-gpu:gpvs_main|tinted-fs:add' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'particle-trail|particle-trail:vs_main|tinted-fs:add' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'billboard|vert:vs_main|tinted-fs:add' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'spine|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'deferred-lighting|lighting-vs|lighting-fs' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'post-process|post-process-vs|post-process-fs' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Resizing device: 1014x642
+2021-07-22 16:21:54-log: [Scene] openEngine end
+2021-07-22 16:21:54-log: [Scene] configureEngine end
+2021-07-22 16:21:54-info: [Scene] Shader 'editor/grid-2d|grid-vs:vert|grid-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'editor/grid|grid-vs:vert|grid-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:front|USE_FORWARD_PIPELINE1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'editor/gizmo|gizmo-vs:vert|gizmo-fs:frag|USE_FORWARD_PIPELINE1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag|USE_INSTANCING1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'skybox|sky-vs:vert|sky-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'unlit|unlit-vs:vert|unlit-fs:frag|CC_USE_FOG4' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'builtin-standard|standard-vs|standard-fs|CC_USE_FOG4' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'builtin-standard|standard-vs|standard-fs|CC_USE_FOG4|CC_FORWARD_ADD1' compilation succeeded.
+2021-07-22 16:21:54-info: [Scene] Shader 'editor/gizmo|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-22 16:21:54-error: init failed, cannot get session id
+2021-07-22 16:22:07-warn: [Scene] Missing class: caa10Yw2zxHWb0OTq1vD9M5
+2021-07-22 16:22:08-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:front' compilation succeeded.
+2021-07-22 16:38:23-log: [Scene] @Inject function to list
+2021-07-22 16:38:23-log: [Scene] @Inject function to list
+2021-07-22 16:38:25-info: [Scene] Shader 'editor/gizmo|gizmo-vs:vert|gizmo-fs:frag' compilation succeeded.
+2021-07-22 16:39:11-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:back|USE_FORWARD_PIPELINE1' compilation succeeded.
+2021-07-22 17:36:15-log: [Scene] @Inject function to list
+2021-07-22 17:36:15-log: [Scene] @Inject function to list
+2021-07-22 17:36:15-log: [Scene] @Inject function to list

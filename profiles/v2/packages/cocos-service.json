@@ -1,0 +1,28 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "2aaabe",
+      "services": [
+        {
+          "service_id": "235",
+          "service_component_name": "service-analytics",
+          "builder": "C:\\Users\\Administrator\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+          "enable": false,
+          "params": {}
+        }
+      ]
+    }
+  },
+  "builder-options": {
+    "configID": "2aaabe",
+    "services": [
+      {
+        "service_id": "235",
+        "service_component_name": "service-analytics",
+        "builder": "C:\\Users\\Administrator\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+        "enable": false,
+        "params": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "__version__": "1.2.8",
+  "BuildTaskManager": {
+    "taskMap": {
+      "1626077342666": {
+        "id": "1626077342666",
+        "progress": 1,
+        "state": "success",
+        "message": "2021-7-12 16:09 Build success in 40616 ms!",
+        "options": {
+          "packages": {
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 1280,
+                "designHeight": 960
+              },
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "2aaabe",
+              "services": [
+                {
+                  "service_id": "235",
+                  "service_component_name": "service-analytics",
+                  "builder": "C:\\Users\\Administrator\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+                  "enable": false,
+                  "params": {}
+                }
+              ]
+            }
+          },
+          "name": "TestFrameWork",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "3d2cc43d-02cf-4711-9da9-1dae6cb37aa9",
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/AutoTestFrameWork.scene",
+              "uuid": "3d2cc43d-02cf-4711-9da9-1dae6cb37aa9",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/Scenes/Demo_ui.scene",
+              "uuid": "5df1bee5-ab91-4d41-bcf6-135042a49440",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-desktop"
+        },
+        "time": "2021-7-12 16:09",
+        "dirty": false
+      }
+    }
+  },
+  "log": {
+    "level": 4
+  }
+}

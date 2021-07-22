@@ -1,0 +1,161 @@
+{
+  "E:\\Cases\\NewProject\\assets\\Script.meta": {
+    "time": 1625627377545.1135
+  },
+  "E:\\Cases\\NewProject\\assets\\Script": {
+    "time": 1625820597511.5747,
+    "uuid": "52cd419f-ae4b-477a-97b4-4594f42a9126",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\Framework.ts.meta": {
+    "time": 1625627402192.8665
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\Framework.ts": {
+    "time": 1625820505995.6086,
+    "uuid": "caa10630-db3c-4759-bd0e-4ead6f0fd339",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes.meta": {
+    "time": 1625627796955.3755
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes\\FrameWorl.scene.meta": {
+    "time": 1625627796978.833
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes": {
+    "time": 1625813374012.6528,
+    "uuid": "b204a052-4523-4404-92c8-f5d28e142241",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\scene.scene.meta": {
+    "time": 1625649811839.4885
+  },
+  "E:\\Cases\\NewProject\\assets\\Export.meta": {
+    "time": 1625725648944.9358
+  },
+  "E:\\Cases\\NewProject\\assets\\Export\\autoTest.d.ts.meta": {
+    "time": 1625725648944.9358
+  },
+  "E:\\Cases\\NewProject\\assets\\Export": {
+    "time": 1625740022161.3147,
+    "uuid": "7f0fcc5d-b449-4313-be1f-a6ed971ff5c9",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Export\\utoTest.ts.meta": {
+    "time": 1625725808994.5403
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes\\AutoTestFrameWork.scene.meta": {
+    "time": 1625627796978.833
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes\\AutoTestFrameWork.scene": {
+    "time": 1625820557533.13,
+    "uuid": "3d2cc43d-02cf-4711-9da9-1dae6cb37aa9",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes\\scene.scene.meta": {
+    "time": 1625649811839.4885
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes\\Demo_ui.scene.meta": {
+    "time": 1625649811839.4885
+  },
+  "E:\\Cases\\NewProject\\assets\\Scenes\\Demo_ui.scene": {
+    "time": 1625820603828.6199,
+    "uuid": "5df1bee5-ab91-4d41-bcf6-135042a49440",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\autoTestConfig.json.meta": {
+    "time": 1625814178489.8267
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\autoTestConfig.json": {
+    "time": 1625815919983.386,
+    "uuid": "ef902636-d698-4bdd-828d-c70ec9fc2943",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\Client.ts.meta": {
+    "time": 1625814198733.2256
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\Client.ts": {
+    "time": 1625817634556.0647,
+    "uuid": "c6b04e86-3868-4fcb-ae0e-542167dd6749",
+    "missing": false
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\PluginNode.ts.meta": {
+    "time": 1625820597512.572
+  },
+  "E:\\Cases\\NewProject\\assets\\Script\\PluginNode.ts": {
+    "time": 1625820597510.5774,
+    "uuid": "d8645b85-1bc6-4ba2-a8ec-f03da98e6933",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Export.meta": {
+    "time": 1625725648944.9358
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Scenes.meta": {
+    "time": 1625627796955.3755
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Scenes\\AutoTestFrameWork.scene.meta": {
+    "time": 1626943103287.0493
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Scenes\\Demo_ui.scene.meta": {
+    "time": 1626943103287.0493
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script.meta": {
+    "time": 1625627377545.1135
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\autoTestConfig.json.meta": {
+    "time": 1625814178489.8267
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\Client.ts.meta": {
+    "time": 1625814198733.2256
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\Framework.ts.meta": {
+    "time": 1626942113191.7947
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\PluginNode.ts.meta": {
+    "time": 1626946575386.259
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Export": {
+    "time": 1625740022161.3147,
+    "uuid": "7f0fcc5d-b449-4313-be1f-a6ed971ff5c9",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Scenes": {
+    "time": 1625813374012.6528,
+    "uuid": "b204a052-4523-4404-92c8-f5d28e142241",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script": {
+    "time": 1625820597511.5747,
+    "uuid": "52cd419f-ae4b-477a-97b4-4594f42a9126",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\Client.ts": {
+    "time": 1625817634556.0647,
+    "uuid": "c6b04e86-3868-4fcb-ae0e-542167dd6749",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\Framework.ts": {
+    "time": 1626944003401.5454,
+    "uuid": "caa10630-db3c-4759-bd0e-4ead6f0fd339",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\PluginNode.ts": {
+    "time": 1626944038961.218,
+    "uuid": "d8645b85-1bc6-4ba2-a8ec-f03da98e6933",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Script\\autoTestConfig.json": {
+    "time": 1625815919983.386,
+    "uuid": "ef902636-d698-4bdd-828d-c70ec9fc2943",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Scenes\\AutoTestFrameWork.scene": {
+    "time": 1626943132600.816,
+    "uuid": "3d2cc43d-02cf-4711-9da9-1dae6cb37aa9",
+    "missing": false
+  },
+  "E:\\Cases\\TestFrameWork\\assets\\Scenes\\Demo_ui.scene": {
+    "time": 1626942113250.639,
+    "uuid": "5df1bee5-ab91-4d41-bcf6-135042a49440",
+    "missing": false
+  }
+}

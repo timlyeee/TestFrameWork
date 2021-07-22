@@ -1,0 +1,196 @@
+debug: Thu, 22 Jul 2021 08:21:44 GMT
+debug: Project: E:\Cases\TestFrameWork
+debug: Targets: editor,preview
+error: Failed to load import map at E:\Cases\TestFrameWork\import-map.json: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\import-map.json'
+debug: [PackerDriver] Options doesn't match.
+Last: {
+  "version": "10",
+  "config": {
+    "useDefineForClassFields": true,
+    "allowDeclareFields": true,
+    "loose": true,
+    "exportsConditions": [
+      "browser"
+    ],
+    "guessCommonJsExports": false
+  }
+}
+Current: {
+  "version": "8",
+  "config": {
+    "useDefineForClassFields": true,
+    "allowDeclareFields": true,
+    "loose": true,
+    "exportsConditions": [
+      "browser"
+    ],
+    "guessCommonJsExports": false
+  }
+}
+debug: Clearing out the targets...
+debug: Engine path: E:\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\temp\programming\packer-driver\targets\editor\modules.json'
+debug: Loading cache costs 0.2809000015258789ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\temp\programming\packer-driver\targets\preview\modules.json'
+debug: Loading cache costs 0.26029999554157257ms.
+debug: Sync engine features: base,gfx-webgl,profiler,audio,video,webview,tween,spine,dragon-bones
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 52.687299996614456ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+debug: Target(editor) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Client.ts
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts
+error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts: SyntaxError: unknown: Unexpected token (101:92)
+
+   99 |         while (cbList.length != 0){
+  100 |             
+> 101 |             Framework._client.websocket.onmessage=((rcode: ReceivedCode, message: any)=>void)=>{
+      |                                                                                             ^
+  102 |
+  103 |             }
+  104 |             Framework._client.websocket.send("@Scene Node "+this.node.scene.name+""+cbList[0].name).
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts, referenced as '[object Object]'.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 233.31649999320507ms.
+debug: Target(preview) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Client.ts
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts
+error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts: SyntaxError: unknown: Unexpected token (101:92)
+
+   99 |         while (cbList.length != 0){
+  100 |             
+> 101 |             Framework._client.websocket.onmessage=((rcode: ReceivedCode, message: any)=>void)=>{
+      |                                                                                             ^
+  102 |
+  103 |             }
+  104 |             Framework._client.websocket.send("@Scene Node "+this.node.scene.name+""+cbList[0].name).
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts, referenced as '[object Object]'.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 152.71899999678135ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Target(editor) ends with cost 127.9067000001669ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:24 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:53 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Target(preview) ends with cost 130.51199999451637ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:14:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts. Last mtime: Thu Jul 22 2021 16:38:18 GMT+0800 (中国标准时间), Current mtime: Thu Jul 22 2021 16:53:23 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts. Last mtime: Mon Jul 12 2021 15:21:50 GMT+0800 (中国标准时间), Current mtime: Thu Jul 22 2021 16:53:58 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve ./Framework from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Target(editor) ends with cost 85.4721000045538ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:53 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:14:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts. Last mtime: Mon Jul 12 2021 15:21:50 GMT+0800 (中国标准时间), Current mtime: Thu Jul 22 2021 16:53:58 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts. Last mtime: Thu Jul 22 2021 16:38:18 GMT+0800 (中国标准时间), Current mtime: Thu Jul 22 2021 16:53:23 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Framework from file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts as file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Script/Client.ts.
+debug: Target(preview) ends with cost 100.85529999434948ms.

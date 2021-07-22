@@ -1,0 +1,7 @@
+{
+    "isAutoTest": false,
+    "server": "192.168.52.195",
+    "port": 8000,
+    "socketType": "ws",
+    "timeOut": 30000
+}
