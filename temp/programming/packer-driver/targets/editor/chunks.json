@@ -87,49 +87,49 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1626942113577,
+    "mTimestamp": 1627028547299,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
   },
-  "assets/Script/Client.js": {
+  "assets/Scripts/Client.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
-    "physicalLocation": "fs/0/assets/Script/Client.js",
-    "mTimestamp": 1626942113711
+    "physicalLocation": "fs/0/assets/Scripts/Client.js",
+    "mTimestamp": 1627028638984
   },
   "quick-pack:/cce/internal/code-quality/cr.js": {
     "imports": {},
     "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1626943103412
+    "mTimestamp": 1627028638996
+  },
+  "assets/Scripts/PluginNode.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
+      "__unresolved_1": "assets/Scripts/Framework.js"
+    },
+    "physicalLocation": "fs/0/assets/Scripts/PluginNode.js",
+    "mTimestamp": 1627029271000
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
-      "__unresolved_0": "assets/Script/Client.js",
-      "__unresolved_1": "assets/Script/Framework.js",
-      "__unresolved_2": "assets/Script/PluginNode.js"
+      "__unresolved_0": "assets/Scripts/Client.js",
+      "__unresolved_2": "assets/Scripts/PluginNode.js",
+      "__unresolved_1": "assets/Scripts/Framework.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1626946575410,
+    "mTimestamp": 1627029352485,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
-  "assets/Script/Framework.js": {
+  "assets/Scripts/Framework.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js",
       "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "assets/Script/Client.js"
+      "__unresolved_1": "assets/Scripts/Client.js"
     },
-    "physicalLocation": "fs/0/assets/Script/Framework.js",
-    "mTimestamp": 1626946575457
-  },
-  "assets/Script/PluginNode.js": {
-    "imports": {
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_1": "assets/Script/Framework.js"
-    },
-    "physicalLocation": "fs/0/assets/Script/PluginNode.js",
-    "mTimestamp": 1626946575480
+    "physicalLocation": "fs/0/assets/Scripts/Framework.js",
+    "mTimestamp": 1627029352516
   }
 }

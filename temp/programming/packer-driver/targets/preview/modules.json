@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 15156.388500005007,
+    "mTimestamp": 29089.643700003624,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -32,7 +32,7 @@
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/profiler",
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
@@ -41,12 +41,12 @@
           },
           "end": {
             "line": 3,
-            "column": 46
+            "column": 48
           }
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/audio",
+        "value": "cce:/internal/x/cc-fu/3d",
         "rewritten": "__unresolved_3",
         "loc": {
           "start": {
@@ -55,12 +55,12 @@
           },
           "end": {
             "line": 4,
-            "column": 43
+            "column": 40
           }
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/video",
+        "value": "cce:/internal/x/cc-fu/2d",
         "rewritten": "__unresolved_4",
         "loc": {
           "start": {
@@ -69,12 +69,12 @@
           },
           "end": {
             "line": 5,
-            "column": 43
+            "column": 40
           }
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/webview",
+        "value": "cce:/internal/x/cc-fu/ui",
         "rewritten": "__unresolved_5",
         "loc": {
           "start": {
@@ -83,12 +83,12 @@
           },
           "end": {
             "line": 6,
-            "column": 45
+            "column": 40
           }
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/tween",
+        "value": "cce:/internal/x/cc-fu/particle",
         "rewritten": "__unresolved_6",
         "loc": {
           "start": {
@@ -97,12 +97,12 @@
           },
           "end": {
             "line": 7,
-            "column": 43
+            "column": 46
           }
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/spine",
+        "value": "cce:/internal/x/cc-fu/physics-ammo",
         "rewritten": "__unresolved_7",
         "loc": {
           "start": {
@@ -111,12 +111,12 @@
           },
           "end": {
             "line": 8,
-            "column": 43
+            "column": 50
           }
         }
       },
       {
-        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "value": "cce:/internal/x/cc-fu/physics-framework",
         "rewritten": "__unresolved_8",
         "loc": {
           "start": {
@@ -125,6 +125,216 @@
           },
           "end": {
             "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+        "rewritten": "__unresolved_9",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "rewritten": "__unresolved_10",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "rewritten": "__unresolved_11",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "rewritten": "__unresolved_12",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "rewritten": "__unresolved_13",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "rewritten": "__unresolved_14",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "rewritten": "__unresolved_15",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "rewritten": "__unresolved_16",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "rewritten": "__unresolved_17",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "rewritten": "__unresolved_18",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "rewritten": "__unresolved_19",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "rewritten": "__unresolved_20",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "rewritten": "__unresolved_21",
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 14
+          },
+          "end": {
+            "line": 22,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "rewritten": "__unresolved_22",
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 14
+          },
+          "end": {
+            "line": 23,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "rewritten": "__unresolved_23",
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 14
+          },
+          "end": {
+            "line": 24,
             "column": 50
           }
         }
@@ -143,7 +353,59 @@
         "isExternal": true
       },
       {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
         "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
         "isExternal": true
       },
       {
@@ -163,6 +425,14 @@
         "isExternal": true
       },
       {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
         "specifierOrURL": "cce:/internal/x/cc-fu/spine",
         "isExternal": true
       },
@@ -173,11 +443,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 4485898.6819000095,
+    "mTimestamp": 840366.5054999888,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts",
+        "value": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -186,12 +456,12 @@
           },
           "end": {
             "line": 4,
-            "column": 63
+            "column": 72
           }
         }
       },
       {
-        "value": "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts",
+        "value": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
@@ -200,12 +470,12 @@
           },
           "end": {
             "line": 5,
-            "column": 66
+            "column": 75
           }
         }
       },
       {
-        "value": "file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts",
+        "value": "file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
@@ -214,7 +484,7 @@
           },
           "end": {
             "line": 6,
-            "column": 67
+            "column": 76
           }
         }
       }
@@ -225,56 +495,21 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts"
       }
     ]
   },
-  "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts": {
-    "mTimestamp": 1625817634556.0647,
-    "chunkId": "assets/Script/Client.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts": {
-    "mTimestamp": 1626944038961.218,
-    "chunkId": "assets/Script/PluginNode.js",
+  "file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts": {
+    "mTimestamp": 1627029221463.4922,
+    "chunkId": "assets/Scripts/PluginNode.js",
     "imports": [
       {
         "value": "cce:/internal/code-quality/cr.mjs",
@@ -288,11 +523,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 89
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 93
           }
         }
       },
@@ -329,13 +564,48 @@
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts"
       }
     ]
   },
-  "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts": {
-    "mTimestamp": 1626944003401.5454,
-    "chunkId": "assets/Script/Framework.js",
+  "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts": {
+    "mTimestamp": 1625817634556.0647,
+    "chunkId": "assets/Scripts/Client.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts": {
+    "mTimestamp": 1627029350913.264,
+    "chunkId": "assets/Scripts/Framework.js",
     "imports": [
       {
         "value": "cce:/internal/code-quality/cr.mjs",
@@ -349,11 +619,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 121
+            "column": 125
           },
           "end": {
             "line": 2,
-            "column": 125
+            "column": 129
           }
         }
       },
@@ -390,12 +660,12 @@
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts"
       }
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1626942089634,
+    "mTimestamp": 1627028512195,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {

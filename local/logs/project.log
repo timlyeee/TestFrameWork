@@ -1,154 +1,1101 @@
-2021-07-22 16:21:30-error: (node:18588) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+2021-07-23 16:21:52-error: (node:22612) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
 (Use `CocosCreator --trace-warnings ...` to show where the warning was created)
-2021-07-22 16:21:37-log: [Package] menu@1.0.0 enable
-2021-07-22 16:21:37-log: [Package] profile@1.0.0 enable
-2021-07-22 16:21:37-log: [Package] messages@1.0.0 enable
-2021-07-22 16:21:37-log: [Package] program@1.0.0 enable
-2021-07-22 16:21:37-log: [Package] device@1.0.1 enable
-2021-07-22 16:21:37-log: [Package] ui-kit@1.0.0 enable
-2021-07-22 16:21:37-log: [Package] tester@1.0.0 enable
-2021-07-22 16:21:37-log: [Package] preferences@1.0.0 enable
-2021-07-22 16:21:38-log: Start Quick Compile
-2021-07-22 16:21:40-log: QuickCompiler:Compile target 0: 2.475s
-2021-07-22 16:21:42-log: QuickCompiler:Compile target 1: 1.436s
-2021-07-22 16:21:42-log: Quick Compile: 3968ms
-2021-07-22 16:21:42-log: Setup mods mgr.: 268.69ms
-2021-07-22 16:21:42-log: [Package] engine@1.0.5 enable
-2021-07-22 16:21:44-error: Failed to load import map at E:\Cases\TestFrameWork\import-map.json: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\import-map.json'
-2021-07-22 16:21:44-log: [Package] programming@1.0.0 enable
-2021-07-22 16:21:44-log: [Package] asset-db@1.0.0 enable
-2021-07-22 16:21:44-log: [Package] console@1.0.0 enable
-2021-07-22 16:21:44-log: [Package] scene@1.0.0 enable
-2021-07-22 16:21:44-log: [Package] project@1.0.1 enable
-2021-07-22 16:21:44-log: [Package] about@1.0.0 enable
-2021-07-22 16:21:45-log: [Package] server@1.0.0 enable
-2021-07-22 16:21:45-log: [Package] utils@1.0.0 enable
-2021-07-22 16:21:45-log: [Package] assets@1.0.0 enable
-2021-07-22 16:21:45-log: [Package] inspector@1.0.0 enable
-2021-07-22 16:21:45-log: [Package] hierarchy@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] preview@1.0.1 enable
-2021-07-22 16:21:46-log: [Package] animator@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] builder@1.2.8 enable
-2021-07-22 16:21:46-log: [Package] node-library@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] shortcuts@1.0.1 enable
-2021-07-22 16:21:46-log: [Package] importer@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] package-asset@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] reference-image@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] channel-upload-tools@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] runtime-dev-tools@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] alipay-mini-game@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] android@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] baidu-mini-game@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] bytedance-mini-game@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] huawei-agc@1.0.0 enable
-2021-07-22 16:21:46-log: [Package] ios@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] ios-app-clip@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] mac@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] native@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] ohos@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] web-desktop@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] web-mobile@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] wechatgame@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] windows@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] xiaomi-quick-game@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] cocos-play@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] huawei-quick-game@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] link-sure@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] oppo-mini-game@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] qtt@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] vivo-mini-game@1.0.0 enable
-2021-07-22 16:21:47-log: [Package] cocos-service@3.0.1 enable
-2021-07-22 16:21:47-log: [Package] extension@3.0.7 enable
-2021-07-22 16:21:48-log: [Package] im-plugin@3.0.4 enable
-2021-07-22 16:21:48-log: [Package] lightmap@1.0.1 enable
-2021-07-22 16:21:48-log: [Package] simple-1625559728268@1.0.0 enable
-2021-07-22 16:21:49-log: [Build] init urlMap
-2021-07-22 16:21:49-log: [Build] Engine location: E:\engine\bin\.cache\dev\editor
-2021-07-22 16:21:49-log: [Build] 'cc.ParticleSystem2D.color' hides inherited property 'cc.Renderable2D.color'. To make the current property override that implementation, add the `override: true` attribute please.
-2021-07-22 16:21:50-error: [Window] { status: 405, msg: 'Missing Session ID', path: 'session/code' }
-2021-07-22 16:21:53-error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts: SyntaxError: unknown: Unexpected token (101:92)
-
-   99 |         while (cbList.length != 0){
-  100 |             
-> 101 |             Framework._client.websocket.onmessage=((rcode: ReceivedCode, message: any)=>void)=>{
-      |                                                                                             ^
-  102 |
-  103 |             }
-  104 |             Framework._client.websocket.send("@Scene Node "+this.node.scene.name+""+cbList[0].name).
-2021-07-22 16:21:53-log: [Scene] begin init
-2021-07-22 16:21:53-log: [Scene] require engine end
-2021-07-22 16:21:53-log: [Scene] Serialize end
-2021-07-22 16:21:53-log: [Scene] configureStartup end
-2021-07-22 16:21:53-info: [Scene] WebGL2 device initialized.
-2021-07-22 16:21:53-info: [Scene] RENDERER: ANGLE (NVIDIA, NVIDIA GeForce GTX 1660 SUPER Direct3D11 vs_5_0 ps_5_0, D3D11-30.0.14.7141)
-2021-07-22 16:21:53-info: [Scene] VENDOR: Google Inc. (NVIDIA)
-2021-07-22 16:21:53-info: [Scene] VERSION: WebGL 2.0 (OpenGL ES 3.0 Chromium)
-2021-07-22 16:21:53-info: [Scene] DPR: 1.25
-2021-07-22 16:21:53-info: [Scene] SCREEN_SIZE: 1268 x 803
-2021-07-22 16:21:53-info: [Scene] MAX_VERTEX_ATTRIBS: 16
-2021-07-22 16:21:53-info: [Scene] MAX_VERTEX_UNIFORM_VECTORS: 4095
-2021-07-22 16:21:53-info: [Scene] MAX_FRAGMENT_UNIFORM_VECTORS: 1024
-2021-07-22 16:21:53-info: [Scene] MAX_TEXTURE_IMAGE_UNITS: 16
-2021-07-22 16:21:53-info: [Scene] MAX_VERTEX_TEXTURE_IMAGE_UNITS: 16
-2021-07-22 16:21:53-info: [Scene] MAX_UNIFORM_BUFFER_BINDINGS: 24
-2021-07-22 16:21:53-info: [Scene] MAX_UNIFORM_BLOCK_SIZE: 65536
-2021-07-22 16:21:53-info: [Scene] DEPTH_BITS: 24
-2021-07-22 16:21:53-info: [Scene] STENCIL_BITS: 8
-2021-07-22 16:21:53-info: [Scene] UNIFORM_BUFFER_OFFSET_ALIGNMENT: 256
-2021-07-22 16:21:53-info: [Scene] MAX_TEXTURE_MAX_ANISOTROPY_EXT: 34047
-2021-07-22 16:21:53-info: [Scene] USE_VAO: true
-2021-07-22 16:21:53-info: [Scene] COMPRESSED_FORMAT: dxt 
-2021-07-22 16:21:53-log: [Scene] Cocos Creator v3.3.0
-2021-07-22 16:21:53-error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts: SyntaxError: unknown: Unexpected token (101:92)
-
-   99 |         while (cbList.length != 0){
-  100 |             
-> 101 |             Framework._client.websocket.onmessage=((rcode: ReceivedCode, message: any)=>void)=>{
-      |                                                                                             ^
-  102 |
-  103 |             }
-  104 |             Framework._client.websocket.send("@Scene Node "+this.node.scene.name+""+cbList[0].name).
-2021-07-22 16:21:53-warn: [Scene] unknown id
-2021-07-22 16:21:53-info: [Scene] Shader 'standard|standard-vs|standard-fs' compilation succeeded.
-2021-07-22 16:21:53-info: [Scene] Shader 'standard|standard-vs|standard-fs|CC_FORWARD_ADD1' compilation succeeded.
-2021-07-22 16:21:53-info: [Scene] Shader 'standard|shadow-caster-vs:vert|shadow-caster-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'unlit|unlit-vs:vert|unlit-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'clear-stencil|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_ALPHA_TEST1|USE_TEXTURE1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1|IS_GRAY1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1|IS_GRAY1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'graphics|vs:vert|fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'particle|particle-vs-legacy:lpvs_main|tinted-fs:add' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'particle-gpu|particle-vs-gpu:gpvs_main|tinted-fs:add' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'particle-trail|particle-trail:vs_main|tinted-fs:add' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'billboard|vert:vs_main|tinted-fs:add' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'spine|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'deferred-lighting|lighting-vs|lighting-fs' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'post-process|post-process-vs|post-process-fs' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Resizing device: 1014x642
-2021-07-22 16:21:54-log: [Scene] openEngine end
-2021-07-22 16:21:54-log: [Scene] configureEngine end
-2021-07-22 16:21:54-info: [Scene] Shader 'editor/grid-2d|grid-vs:vert|grid-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'editor/grid|grid-vs:vert|grid-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:front|USE_FORWARD_PIPELINE1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'editor/gizmo|gizmo-vs:vert|gizmo-fs:frag|USE_FORWARD_PIPELINE1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag|USE_INSTANCING1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'skybox|sky-vs:vert|sky-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'unlit|unlit-vs:vert|unlit-fs:frag|CC_USE_FOG4' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'builtin-standard|standard-vs|standard-fs|CC_USE_FOG4' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'builtin-standard|standard-vs|standard-fs|CC_USE_FOG4|CC_FORWARD_ADD1' compilation succeeded.
-2021-07-22 16:21:54-info: [Scene] Shader 'editor/gizmo|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
-2021-07-22 16:21:54-error: init failed, cannot get session id
-2021-07-22 16:22:07-warn: [Scene] Missing class: caa10Yw2zxHWb0OTq1vD9M5
-2021-07-22 16:22:08-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:front' compilation succeeded.
-2021-07-22 16:38:23-log: [Scene] @Inject function to list
-2021-07-22 16:38:23-log: [Scene] @Inject function to list
-2021-07-22 16:38:25-info: [Scene] Shader 'editor/gizmo|gizmo-vs:vert|gizmo-fs:frag' compilation succeeded.
-2021-07-22 16:39:11-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:back|USE_FORWARD_PIPELINE1' compilation succeeded.
-2021-07-22 17:36:15-log: [Scene] @Inject function to list
-2021-07-22 17:36:15-log: [Scene] @Inject function to list
-2021-07-22 17:36:15-log: [Scene] @Inject function to list
+2021-07-23 16:22:18-log: [Package] Profile Migrate: program@Cocos Creator...
+2021-07-23 16:22:18-log: [Package] Profile Migrate: program@Cocos Creator...
+2021-07-23 16:22:18-log: [Package] Profile Migrate: device@Cocos Creator...
+2021-07-23 16:22:18-log: [Package] Profile Migrate: device@Cocos Creator...
+2021-07-23 16:22:18-log: [Package] Profile Migrate: engine@Cocos Creator...
+2021-07-23 16:22:18-log: [Package] Profile Migrate: engine@Cocos Creator...
+2021-07-23 16:22:18-log: [Package] menu@1.0.0 enable
+2021-07-23 16:22:18-log: [Package] profile@1.0.0 enable
+2021-07-23 16:22:18-log: [Package] messages@1.0.0 enable
+2021-07-23 16:22:18-log: [Package] program@1.0.0 enable
+2021-07-23 16:22:18-log: [Package] device@1.0.1 enable
+2021-07-23 16:22:18-log: [Package] ui-kit@1.0.0 enable
+2021-07-23 16:22:18-log: [Package] tester@1.0.0 enable
+2021-07-23 16:22:18-log: [Package] preferences@1.0.0 enable
+2021-07-23 16:22:19-log: Setup mods mgr.: 193.603ms
+2021-07-23 16:22:19-log: [Package] engine@1.0.5 enable
+2021-07-23 16:22:21-error: Failed to load import map at E:\Cases\test-light\NewProject\import-map.json: Error: ENOENT: no such file or directory, open 'E:\Cases\test-light\NewProject\import-map.json'
+2021-07-23 16:22:21-log: [Package] programming@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] asset-db@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] console@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] scene@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] project@1.0.1 enable
+2021-07-23 16:22:21-log: [Package] about@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] server@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] utils@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] assets@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] inspector@1.0.0 enable
+2021-07-23 16:22:21-log: [Package] hierarchy@1.0.0 enable
+2021-07-23 16:22:22-log: [Package] preview@1.0.1 enable
+2021-07-23 16:22:22-log: [Package] animator@1.0.0 enable
+2021-07-23 16:22:22-log: [Package] builder@1.2.8 enable
+2021-07-23 16:22:22-log: [Package] node-library@1.0.0 enable
+2021-07-23 16:22:22-log: [Package] shortcuts@1.0.1 enable
+2021-07-23 16:22:23-log: [Package] importer@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] package-asset@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] reference-image@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] channel-upload-tools@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] runtime-dev-tools@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] alipay-mini-game@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] android@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] baidu-mini-game@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] bytedance-mini-game@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] huawei-agc@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] ios@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] ios-app-clip@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] mac@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] native@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] ohos@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] web-desktop@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] web-mobile@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] wechatgame@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] windows@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] xiaomi-quick-game@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] cocos-play@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] huawei-quick-game@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] link-sure@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] oppo-mini-game@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] qtt@1.0.0 enable
+2021-07-23 16:22:23-log: [Package] vivo-mini-game@1.0.0 enable
+2021-07-23 16:22:24-log: [Package] cocos-service@3.0.1 enable
+2021-07-23 16:22:24-log: [Package] extension@3.0.7 enable
+2021-07-23 16:22:24-log: [Package] im-plugin@3.0.4 enable
+2021-07-23 16:22:24-log: [Package] lightmap@1.0.1 enable
+2021-07-23 16:22:24-log: [Package] simple-1625559728268@1.0.0 enable
+2021-07-23 16:22:25-log: [Build] init urlMap
+2021-07-23 16:22:25-log: [Build] Engine location: C:\Users\Administrator\Downloads\CocosCreator-v3.3.0-win32-072101\resources\resources\3d\engine\bin\.cache\dev\editor
+2021-07-23 16:22:25-log: [Build] 'cc.ParticleSystem2D.color' hides inherited property 'cc.Renderable2D.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2021-07-23 16:22:27-log: [Scene] begin init
+2021-07-23 16:22:27-log: [Scene] require engine end
+2021-07-23 16:22:27-log: [Scene] Serialize end
+2021-07-23 16:22:27-log: [Scene] configureStartup end
+2021-07-23 16:22:27-info: [Scene] WebGL2 device initialized.
+2021-07-23 16:22:27-info: [Scene] RENDERER: ANGLE (NVIDIA, NVIDIA GeForce GTX 1660 SUPER Direct3D11 vs_5_0 ps_5_0, D3D11-30.0.14.7141)
+2021-07-23 16:22:27-info: [Scene] VENDOR: Google Inc. (NVIDIA)
+2021-07-23 16:22:27-info: [Scene] VERSION: WebGL 2.0 (OpenGL ES 3.0 Chromium)
+2021-07-23 16:22:27-info: [Scene] DPR: 1.25
+2021-07-23 16:22:27-info: [Scene] SCREEN_SIZE: 1268 x 803
+2021-07-23 16:22:27-info: [Scene] MAX_VERTEX_ATTRIBS: 16
+2021-07-23 16:22:27-info: [Scene] MAX_VERTEX_UNIFORM_VECTORS: 4095
+2021-07-23 16:22:27-info: [Scene] MAX_FRAGMENT_UNIFORM_VECTORS: 1024
+2021-07-23 16:22:27-info: [Scene] MAX_TEXTURE_IMAGE_UNITS: 16
+2021-07-23 16:22:27-info: [Scene] MAX_VERTEX_TEXTURE_IMAGE_UNITS: 16
+2021-07-23 16:22:27-info: [Scene] MAX_UNIFORM_BUFFER_BINDINGS: 24
+2021-07-23 16:22:27-info: [Scene] MAX_UNIFORM_BLOCK_SIZE: 65536
+2021-07-23 16:22:27-info: [Scene] DEPTH_BITS: 24
+2021-07-23 16:22:27-info: [Scene] STENCIL_BITS: 8
+2021-07-23 16:22:27-info: [Scene] UNIFORM_BUFFER_OFFSET_ALIGNMENT: 256
+2021-07-23 16:22:27-info: [Scene] MAX_TEXTURE_MAX_ANISOTROPY_EXT: 34047
+2021-07-23 16:22:27-info: [Scene] USE_VAO: true
+2021-07-23 16:22:27-info: [Scene] COMPRESSED_FORMAT: dxt 
+2021-07-23 16:22:27-log: [Scene] Cocos Creator v3.3.0
+2021-07-23 16:22:27-warn: [Scene] Forward render pipeline initialized.
+2021-07-23 16:22:27-info: [Scene] Shader 'standard|standard-vs|standard-fs' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'standard|standard-vs|standard-fs|CC_FORWARD_ADD1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'standard|shadow-caster-vs:vert|shadow-caster-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'unlit|unlit-vs:vert|unlit-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'clear-stencil|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_ALPHA_TEST1|USE_TEXTURE1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|USE_TEXTURE1|IS_GRAY1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA1|USE_TEXTURE1|IS_GRAY1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'graphics|vs:vert|fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'particle|particle-vs-legacy:lpvs_main|tinted-fs:add' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'particle-gpu|particle-vs-gpu:gpvs_main|tinted-fs:add' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'particle-trail|particle-trail:vs_main|tinted-fs:add' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'billboard|vert:vs_main|tinted-fs:add' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'spine|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'deferred-lighting|lighting-vs|lighting-fs' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'post-process|post-process-vs|post-process-fs' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Resizing device: 1014x642
+2021-07-23 16:22:27-log: [Scene] openEngine end
+2021-07-23 16:22:27-log: [Scene] configureEngine end
+2021-07-23 16:22:27-info: [Scene] Shader 'editor/grid-2d|grid-vs:vert|grid-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'editor/grid|grid-vs:vert|grid-fs:frag' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:front|USE_FORWARD_PIPELINE1' compilation succeeded.
+2021-07-23 16:22:27-info: [Scene] Shader 'editor/gizmo|gizmo-vs:vert|gizmo-fs:frag|USE_FORWARD_PIPELINE1' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'planar-shadow|planar-shadow-vs:vert|planar-shadow-fs:frag|USE_INSTANCING1' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'skybox|sky-vs:vert|sky-fs:frag' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'unlit|unlit-vs:vert|unlit-fs:frag|CC_USE_FOG4' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'builtin-standard|standard-vs|standard-fs|CC_USE_FOG4' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'builtin-standard|standard-vs|standard-fs|CC_USE_FOG4|CC_FORWARD_ADD1' compilation succeeded.
+2021-07-23 16:22:28-info: [Scene] Shader 'editor/gizmo|sprite-vs:vert|sprite-fs:frag' compilation succeeded.
+2021-07-23 16:22:28-error: init failed, cannot get session id
+2021-07-23 16:22:49-error: getImSetting failed
+2021-07-23 16:22:50-info: [Scene] Shader 'editor/gizmo|line-vs:vert|line-fs:front' compilation succeeded.
+2021-07-23 16:22:50-info: [Scene] Shader 'editor/gizmo|gizmo-vs:vert|gizmo-fs:frag' compilation succeeded.
+2021-07-23 16:23:02-log: [Build] Query all assets info in project
+2021-07-23 16:23:02-log: [Build] BuildAssetLibrary initialized with asset 245!
+2021-07-23 16:23:02-log: [Build]   Number of all scenes: 0
+2021-07-23 16:23:02-log: [Build]   Number of all scripts: 0
+2021-07-23 16:23:02-log: [Build]   Number of other assets: 257
+2021-07-23 16:23:02-log: [Build] Query asset bundle start0%
+2021-07-23 16:23:02-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.45MB heapUsed 107.24MB rss 239.13MB
+2021-07-23 16:23:02-log: [Build] Query asset bundle √3%
+2021-07-23 16:23:02-log: [Build] Query and organize assets start3%
+2021-07-23 16:23:02-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.45MB heapUsed 107.27MB rss 239.14MB
+2021-07-23 16:23:02-log: [Build] Number of scenes: 0
+2021-07-23 16:23:02-log: [Build] Query and organize assets √7%
+2021-07-23 16:23:02-log: [Build] Organize scripts start7%
+2021-07-23 16:23:02-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.45MB heapUsed 107.37MB rss 239.34MB
+2021-07-23 16:23:02-log: [Build] sort script group...
+2021-07-23 16:23:02-log: [Build] Organize scripts √10%
+2021-07-23 16:23:02-log: [Build] Init settings and config start10%
+2021-07-23 16:23:02-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.45MB heapUsed 107.38MB rss 239.36MB
+2021-07-23 16:23:02-log: [Build] Init settings and config √11%
+2021-07-23 16:23:02-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:23:02-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:23:02-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.45MB heapUsed 107.39MB rss 239.38MB
+2021-07-23 16:23:02-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:23:02-log: [Build] Use cached settings start11%
+2021-07-23 16:23:02-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.45MB heapUsed 107.42MB rss 239.41MB
+2021-07-23 16:23:02-log: [Build] Use cached settings √12%
+2021-07-23 16:23:02-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:23:02-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.54MB heapUsed 106.77MB rss 238.76MB
+2021-07-23 16:23:02-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:23:02-log: [Build] custom joint physics start12%
+2021-07-23 16:23:02-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.54MB heapUsed 106.79MB rss 238.78MB
+2021-07-23 16:23:02-log: [Build] custom joint physics √13%
+2021-07-23 16:23:02-log: [Build] Fill script data to settings start13%
+2021-07-23 16:23:02-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.54MB heapUsed 106.80MB rss 238.79MB
+2021-07-23 16:23:02-log: [Build] Fill script data to settings √13%
+2021-07-23 16:23:02-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:23:02-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.54MB heapUsed 106.81MB rss 238.81MB
+2021-07-23 16:23:02-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:23:02-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:23:02-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.54MB heapUsed 106.82MB rss 238.82MB
+2021-07-23 16:23:02-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:23:02-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:23:02-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:23:02-log: [Build] Process: heapTotal 111.54MB heapUsed 106.83MB rss 238.84MB
+2021-07-23 16:23:02-log: [Build] options.md5Cache is false.
+2021-07-23 16:23:02-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:23:12-log: [Build] Query all assets info in project
+2021-07-23 16:23:12-log: [Build] BuildAssetLibrary initialized with asset 246!
+2021-07-23 16:23:12-log: [Build]   Number of all scenes: 1
+2021-07-23 16:23:12-log: [Build]   Number of all scripts: 0
+2021-07-23 16:23:12-log: [Build]   Number of other assets: 257
+2021-07-23 16:23:12-log: [Build] Query asset bundle start0%
+2021-07-23 16:23:12-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 111.70MB heapUsed 107.05MB rss 238.88MB
+2021-07-23 16:23:12-log: [Build] Query asset bundle √3%
+2021-07-23 16:23:12-log: [Build] Query and organize assets start3%
+2021-07-23 16:23:12-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 111.70MB heapUsed 107.07MB rss 238.91MB
+2021-07-23 16:23:12-log: [Build] Number of scenes: 1
+2021-07-23 16:23:12-log: [Build] Query and organize assets √7%
+2021-07-23 16:23:12-log: [Build] Organize scripts start7%
+2021-07-23 16:23:12-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.04MB rss 238.86MB
+2021-07-23 16:23:12-log: [Build] sort script group...
+2021-07-23 16:23:12-log: [Build] Organize scripts √10%
+2021-07-23 16:23:12-log: [Build] Init settings and config start10%
+2021-07-23 16:23:12-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.05MB rss 238.88MB
+2021-07-23 16:23:12-log: [Build] Init settings and config √11%
+2021-07-23 16:23:12-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:23:12-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:23:12-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.06MB rss 238.89MB
+2021-07-23 16:23:12-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:23:12-log: [Build] Use cached settings start11%
+2021-07-23 16:23:12-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.09MB rss 238.93MB
+2021-07-23 16:23:12-log: [Build] Use cached settings √12%
+2021-07-23 16:23:12-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:23:12-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.14MB rss 238.98MB
+2021-07-23 16:23:12-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:23:12-log: [Build] custom joint physics start12%
+2021-07-23 16:23:12-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.16MB rss 239.00MB
+2021-07-23 16:23:12-log: [Build] custom joint physics √13%
+2021-07-23 16:23:12-log: [Build] Fill script data to settings start13%
+2021-07-23 16:23:12-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.17MB rss 239.02MB
+2021-07-23 16:23:12-log: [Build] Fill script data to settings √13%
+2021-07-23 16:23:12-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:23:12-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.18MB rss 239.03MB
+2021-07-23 16:23:12-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:23:12-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:23:12-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.19MB rss 239.04MB
+2021-07-23 16:23:12-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:23:12-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:23:12-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:23:12-log: [Build] Process: heapTotal 112.20MB heapUsed 107.20MB rss 239.06MB
+2021-07-23 16:23:12-log: [Build] options.md5Cache is false.
+2021-07-23 16:23:12-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:23:59-log: [Scene] @Inject function to list
+2021-07-23 16:23:59-log: [Scene] @Inject function to list
+2021-07-23 16:23:59-log: [Scene] @Inject function to list
+2021-07-23 16:23:59-log: [Scene] @Inject function to list
+2021-07-23 16:23:59-log: [Scene] @Inject function to list
+2021-07-23 16:23:59-log: [Build] Query all assets info in project
+2021-07-23 16:23:59-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:23:59-log: [Build]   Number of all scenes: 1
+2021-07-23 16:23:59-log: [Build]   Number of all scripts: 3
+2021-07-23 16:23:59-log: [Build]   Number of other assets: 258
+2021-07-23 16:23:59-log: [Build] Query asset bundle start0%
+2021-07-23 16:23:59-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.38MB heapUsed 108.01MB rss 239.80MB
+2021-07-23 16:23:59-log: [Build] Query asset bundle √3%
+2021-07-23 16:23:59-log: [Build] Query and organize assets start3%
+2021-07-23 16:23:59-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.36MB rss 239.11MB
+2021-07-23 16:23:59-log: [Build] Number of scenes: 1
+2021-07-23 16:23:59-log: [Build] Query and organize assets √7%
+2021-07-23 16:23:59-log: [Build] Organize scripts start7%
+2021-07-23 16:23:59-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.46MB rss 239.22MB
+2021-07-23 16:23:59-log: [Build] sort script group...
+2021-07-23 16:23:59-log: [Build] Organize scripts √10%
+2021-07-23 16:23:59-log: [Build] Init settings and config start10%
+2021-07-23 16:23:59-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.49MB rss 239.25MB
+2021-07-23 16:23:59-log: [Build] Init settings and config √11%
+2021-07-23 16:23:59-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:23:59-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:23:59-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.51MB rss 239.27MB
+2021-07-23 16:23:59-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:23:59-log: [Build] Use cached settings start11%
+2021-07-23 16:23:59-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.53MB rss 239.29MB
+2021-07-23 16:23:59-log: [Build] Use cached settings √12%
+2021-07-23 16:23:59-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:23:59-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.58MB rss 239.35MB
+2021-07-23 16:23:59-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:23:59-log: [Build] custom joint physics start12%
+2021-07-23 16:23:59-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.60MB rss 239.37MB
+2021-07-23 16:23:59-log: [Build] custom joint physics √13%
+2021-07-23 16:23:59-log: [Build] Fill script data to settings start13%
+2021-07-23 16:23:59-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.61MB rss 239.38MB
+2021-07-23 16:23:59-log: [Build] Fill script data to settings √13%
+2021-07-23 16:23:59-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:23:59-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.62MB rss 239.40MB
+2021-07-23 16:23:59-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:23:59-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:23:59-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.63MB rss 239.42MB
+2021-07-23 16:23:59-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:23:59-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:23:59-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:23:59-log: [Build] Process: heapTotal 112.20MB heapUsed 107.64MB rss 239.44MB
+2021-07-23 16:23:59-log: [Build] options.md5Cache is false.
+2021-07-23 16:23:59-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:24:03-warn: [Window] (electron) The remote module is deprecated. Use https://github.com/electron/remote instead.
+2021-07-23 16:24:05-log: [Build] Query all assets info in project
+2021-07-23 16:24:05-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:24:05-log: [Build]   Number of all scenes: 1
+2021-07-23 16:24:05-log: [Build]   Number of all scripts: 3
+2021-07-23 16:24:05-log: [Build]   Number of other assets: 258
+2021-07-23 16:24:05-log: [Build] Query asset bundle start0%
+2021-07-23 16:24:05-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 112.38MB heapUsed 107.77MB rss 239.58MB
+2021-07-23 16:24:05-log: [Build] Query asset bundle √3%
+2021-07-23 16:24:05-log: [Build] Query and organize assets start3%
+2021-07-23 16:24:05-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 112.38MB heapUsed 107.79MB rss 239.61MB
+2021-07-23 16:24:05-log: [Build] Number of scenes: 1
+2021-07-23 16:24:05-warn: [Build] Missing class: b748epo/otPUovAW/pcPXV1
+2021-07-23 16:24:05-log: [Build] Query and organize assets √7%
+2021-07-23 16:24:05-log: [Build] Organize scripts start7%
+2021-07-23 16:24:05-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.26MB heapUsed 108.89MB rss 240.74MB
+2021-07-23 16:24:05-log: [Build] sort script group...
+2021-07-23 16:24:05-log: [Build] Organize scripts √10%
+2021-07-23 16:24:05-log: [Build] Init settings and config start10%
+2021-07-23 16:24:05-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.26MB heapUsed 108.92MB rss 240.77MB
+2021-07-23 16:24:05-log: [Build] Init settings and config √11%
+2021-07-23 16:24:05-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:24:05-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:24:05-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.26MB heapUsed 108.93MB rss 240.79MB
+2021-07-23 16:24:05-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:24:05-log: [Build] Use cached settings start11%
+2021-07-23 16:24:05-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.30MB rss 240.17MB
+2021-07-23 16:24:05-log: [Build] Use cached settings √12%
+2021-07-23 16:24:05-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:24:05-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.35MB rss 240.20MB
+2021-07-23 16:24:05-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:24:05-log: [Build] custom joint physics start12%
+2021-07-23 16:24:05-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.36MB rss 240.21MB
+2021-07-23 16:24:05-log: [Build] custom joint physics √13%
+2021-07-23 16:24:05-log: [Build] Fill script data to settings start13%
+2021-07-23 16:24:05-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.37MB rss 240.23MB
+2021-07-23 16:24:05-log: [Build] Fill script data to settings √13%
+2021-07-23 16:24:05-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:24:05-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.38MB rss 240.25MB
+2021-07-23 16:24:05-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:24:05-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:24:05-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.40MB rss 240.26MB
+2021-07-23 16:24:05-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:24:05-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:24:05-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:24:05-log: [Build] Process: heapTotal 113.09MB heapUsed 108.41MB rss 240.27MB
+2021-07-23 16:24:05-log: [Build] options.md5Cache is false.
+2021-07-23 16:24:05-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:25:01-log: [Build] Query all assets info in project
+2021-07-23 16:25:01-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:25:01-log: [Build]   Number of all scenes: 1
+2021-07-23 16:25:01-log: [Build]   Number of all scripts: 3
+2021-07-23 16:25:01-log: [Build]   Number of other assets: 258
+2021-07-23 16:25:01-log: [Build] Query asset bundle start0%
+2021-07-23 16:25:01-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 108.90MB rss 240.78MB
+2021-07-23 16:25:01-log: [Build] Query asset bundle √3%
+2021-07-23 16:25:01-log: [Build] Query and organize assets start3%
+2021-07-23 16:25:01-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 108.92MB rss 240.81MB
+2021-07-23 16:25:01-log: [Build] Number of scenes: 1
+2021-07-23 16:25:01-log: [Build] Query and organize assets √7%
+2021-07-23 16:25:01-log: [Build] Organize scripts start7%
+2021-07-23 16:25:01-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.02MB rss 240.90MB
+2021-07-23 16:25:01-log: [Build] sort script group...
+2021-07-23 16:25:01-log: [Build] Organize scripts √10%
+2021-07-23 16:25:01-log: [Build] Init settings and config start10%
+2021-07-23 16:25:01-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.05MB rss 240.96MB
+2021-07-23 16:25:01-log: [Build] Init settings and config √11%
+2021-07-23 16:25:01-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:25:01-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:25:01-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.06MB rss 240.98MB
+2021-07-23 16:25:01-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:25:01-log: [Build] Use cached settings start11%
+2021-07-23 16:25:01-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.09MB rss 241.01MB
+2021-07-23 16:25:01-log: [Build] Use cached settings √12%
+2021-07-23 16:25:01-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:25:01-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.14MB rss 241.02MB
+2021-07-23 16:25:01-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:25:01-log: [Build] custom joint physics start12%
+2021-07-23 16:25:01-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.16MB rss 241.04MB
+2021-07-23 16:25:01-log: [Build] custom joint physics √13%
+2021-07-23 16:25:01-log: [Build] Fill script data to settings start13%
+2021-07-23 16:25:01-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.17MB rss 241.05MB
+2021-07-23 16:25:01-log: [Build] Fill script data to settings √13%
+2021-07-23 16:25:01-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:25:01-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.18MB rss 241.07MB
+2021-07-23 16:25:01-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:25:01-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:25:01-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.19MB rss 241.08MB
+2021-07-23 16:25:01-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:25:01-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:25:01-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:25:01-log: [Build] Process: heapTotal 113.51MB heapUsed 109.20MB rss 241.10MB
+2021-07-23 16:25:01-log: [Build] options.md5Cache is false.
+2021-07-23 16:25:01-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:26:15-log: [Scene] @Inject function to list
+2021-07-23 16:26:15-log: [Scene] @Inject function to list
+2021-07-23 16:26:15-log: [Scene] @Inject function to list
+2021-07-23 16:26:15-log: [Scene] @Inject function to list
+2021-07-23 16:26:15-log: [Scene] @Inject function to list
+2021-07-23 16:26:18-log: [Build] Query all assets info in project
+2021-07-23 16:26:18-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:26:18-log: [Build]   Number of all scenes: 1
+2021-07-23 16:26:18-log: [Build]   Number of all scripts: 3
+2021-07-23 16:26:18-log: [Build]   Number of other assets: 258
+2021-07-23 16:26:18-log: [Build] Query asset bundle start0%
+2021-07-23 16:26:18-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 107.83MB rss 239.63MB
+2021-07-23 16:26:18-log: [Build] Query asset bundle √3%
+2021-07-23 16:26:18-log: [Build] Query and organize assets start3%
+2021-07-23 16:26:18-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 107.86MB rss 239.66MB
+2021-07-23 16:26:18-log: [Build] Number of scenes: 1
+2021-07-23 16:26:18-warn: [Build] Missing class: b748epo/otPUovAW/pcPXV1
+2021-07-23 16:26:18-log: [Build] Query and organize assets √7%
+2021-07-23 16:26:18-log: [Build] Organize scripts start7%
+2021-07-23 16:26:18-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 108.18MB rss 239.98MB
+2021-07-23 16:26:18-log: [Build] sort script group...
+2021-07-23 16:26:18-log: [Build] Organize scripts √10%
+2021-07-23 16:26:18-log: [Build] Init settings and config start10%
+2021-07-23 16:26:18-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 108.20MB rss 240.01MB
+2021-07-23 16:26:18-log: [Build] Init settings and config √11%
+2021-07-23 16:26:18-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:26:18-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:26:18-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 108.22MB rss 240.03MB
+2021-07-23 16:26:18-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:26:18-log: [Build] Use cached settings start11%
+2021-07-23 16:26:18-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 108.24MB rss 240.05MB
+2021-07-23 16:26:18-log: [Build] Use cached settings √12%
+2021-07-23 16:26:18-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:26:18-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.34MB heapUsed 108.30MB rss 240.18MB
+2021-07-23 16:26:18-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:26:18-log: [Build] custom joint physics start12%
+2021-07-23 16:26:18-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.17MB heapUsed 107.58MB rss 239.50MB
+2021-07-23 16:26:18-log: [Build] custom joint physics √13%
+2021-07-23 16:26:18-log: [Build] Fill script data to settings start13%
+2021-07-23 16:26:18-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.17MB heapUsed 107.59MB rss 239.52MB
+2021-07-23 16:26:18-log: [Build] Fill script data to settings √13%
+2021-07-23 16:26:18-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:26:18-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.17MB heapUsed 107.60MB rss 239.53MB
+2021-07-23 16:26:18-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:26:18-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:26:18-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.17MB heapUsed 107.61MB rss 239.55MB
+2021-07-23 16:26:18-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:26:18-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:26:18-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:26:18-log: [Build] Process: heapTotal 112.17MB heapUsed 107.62MB rss 239.57MB
+2021-07-23 16:26:18-log: [Build] options.md5Cache is false.
+2021-07-23 16:26:18-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:26:52-log: [Build] Query all assets info in project
+2021-07-23 16:26:52-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:26:52-log: [Build]   Number of all scenes: 1
+2021-07-23 16:26:52-log: [Build]   Number of all scripts: 3
+2021-07-23 16:26:52-log: [Build]   Number of other assets: 258
+2021-07-23 16:26:52-log: [Build] Query asset bundle start0%
+2021-07-23 16:26:52-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:26:52-log: [Build] Process: heapTotal 112.34MB heapUsed 107.81MB rss 239.67MB
+2021-07-23 16:26:53-log: [Build] Query asset bundle √3%
+2021-07-23 16:26:53-log: [Build] Query and organize assets start3%
+2021-07-23 16:26:53-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 107.84MB rss 239.70MB
+2021-07-23 16:26:53-log: [Build] Number of scenes: 1
+2021-07-23 16:26:53-log: [Build] Query and organize assets √7%
+2021-07-23 16:26:53-log: [Build] Organize scripts start7%
+2021-07-23 16:26:53-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 107.94MB rss 239.81MB
+2021-07-23 16:26:53-log: [Build] sort script group...
+2021-07-23 16:26:53-log: [Build] Organize scripts √10%
+2021-07-23 16:26:53-log: [Build] Init settings and config start10%
+2021-07-23 16:26:53-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 107.97MB rss 239.84MB
+2021-07-23 16:26:53-log: [Build] Init settings and config √11%
+2021-07-23 16:26:53-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:26:53-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:26:53-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 107.98MB rss 239.86MB
+2021-07-23 16:26:53-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:26:53-log: [Build] Use cached settings start11%
+2021-07-23 16:26:53-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.01MB rss 239.89MB
+2021-07-23 16:26:53-log: [Build] Use cached settings √12%
+2021-07-23 16:26:53-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:26:53-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.06MB rss 239.95MB
+2021-07-23 16:26:52-log: [Scene] @Inject function to list
+2021-07-23 16:26:52-log: [Scene] @Inject function to list
+2021-07-23 16:26:52-log: [Scene] @Inject function to list
+2021-07-23 16:26:52-log: [Scene] @Inject function to list
+2021-07-23 16:26:52-log: [Scene] @Inject function to list
+2021-07-23 16:26:53-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:26:53-log: [Build] custom joint physics start12%
+2021-07-23 16:26:53-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.07MB rss 239.96MB
+2021-07-23 16:26:53-log: [Build] custom joint physics √13%
+2021-07-23 16:26:53-log: [Build] Fill script data to settings start13%
+2021-07-23 16:26:53-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.08MB rss 239.98MB
+2021-07-23 16:26:53-log: [Build] Fill script data to settings √13%
+2021-07-23 16:26:53-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:26:53-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.10MB rss 239.99MB
+2021-07-23 16:26:53-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:26:53-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:26:53-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.11MB rss 240.01MB
+2021-07-23 16:26:53-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:26:53-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:26:53-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:26:53-log: [Build] Process: heapTotal 112.34MB heapUsed 108.12MB rss 240.02MB
+2021-07-23 16:26:53-log: [Build] options.md5Cache is false.
+2021-07-23 16:26:53-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:28:27-log: [Scene] @Inject function to list
+2021-07-23 16:28:27-log: [Scene] @Inject function to list
+2021-07-23 16:28:27-log: [Scene] @Inject function to list
+2021-07-23 16:28:27-log: [Scene] @Inject function to list
+2021-07-23 16:28:27-log: [Scene] @Inject function to list
+2021-07-23 16:28:32-log: [Build] Query all assets info in project
+2021-07-23 16:28:32-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:28:32-log: [Build]   Number of all scenes: 1
+2021-07-23 16:28:32-log: [Build]   Number of all scripts: 3
+2021-07-23 16:28:32-log: [Build]   Number of other assets: 258
+2021-07-23 16:28:32-log: [Build] Query asset bundle start0%
+2021-07-23 16:28:32-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.12MB rss 240.05MB
+2021-07-23 16:28:32-log: [Build] Query asset bundle √3%
+2021-07-23 16:28:32-log: [Build] Query and organize assets start3%
+2021-07-23 16:28:32-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.14MB rss 240.07MB
+2021-07-23 16:28:32-log: [Build] Number of scenes: 1
+2021-07-23 16:28:32-log: [Build] Query and organize assets √7%
+2021-07-23 16:28:32-log: [Build] Organize scripts start7%
+2021-07-23 16:28:32-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.25MB rss 240.18MB
+2021-07-23 16:28:32-log: [Build] sort script group...
+2021-07-23 16:28:32-log: [Build] Organize scripts √10%
+2021-07-23 16:28:32-log: [Build] Init settings and config start10%
+2021-07-23 16:28:32-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.27MB rss 240.21MB
+2021-07-23 16:28:32-log: [Build] Init settings and config √11%
+2021-07-23 16:28:32-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:28:32-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:28:32-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.29MB rss 240.23MB
+2021-07-23 16:28:32-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:28:32-log: [Build] Use cached settings start11%
+2021-07-23 16:28:32-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.31MB rss 240.25MB
+2021-07-23 16:28:32-log: [Build] Use cached settings √12%
+2021-07-23 16:28:32-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:28:32-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.36MB rss 240.30MB
+2021-07-23 16:28:32-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:28:32-log: [Build] custom joint physics start12%
+2021-07-23 16:28:32-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.38MB rss 240.32MB
+2021-07-23 16:28:32-log: [Build] custom joint physics √13%
+2021-07-23 16:28:32-log: [Build] Fill script data to settings start13%
+2021-07-23 16:28:32-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.39MB rss 240.34MB
+2021-07-23 16:28:32-log: [Build] Fill script data to settings √13%
+2021-07-23 16:28:32-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:28:32-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.40MB rss 240.35MB
+2021-07-23 16:28:32-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:28:32-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:28:32-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.41MB rss 240.37MB
+2021-07-23 16:28:32-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:28:32-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:28:32-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:28:32-log: [Build] Process: heapTotal 112.51MB heapUsed 108.42MB rss 240.39MB
+2021-07-23 16:28:32-log: [Build] options.md5Cache is false.
+2021-07-23 16:28:32-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:29:28-log: [Scene] @Inject function to list
+2021-07-23 16:29:28-log: [Scene] @Inject function to list
+2021-07-23 16:29:29-log: [Build] Query all assets info in project
+2021-07-23 16:29:29-log: [Build] BuildAssetLibrary initialized with asset 249!
+2021-07-23 16:29:29-log: [Build]   Number of all scenes: 1
+2021-07-23 16:29:29-log: [Build]   Number of all scripts: 2
+2021-07-23 16:29:29-log: [Build]   Number of other assets: 258
+2021-07-23 16:29:29-log: [Build] Query asset bundle start0%
+2021-07-23 16:29:29-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.93MB heapUsed 108.62MB rss 240.51MB
+2021-07-23 16:29:29-log: [Build] Query asset bundle √3%
+2021-07-23 16:29:29-log: [Build] Query and organize assets start3%
+2021-07-23 16:29:29-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.93MB heapUsed 108.65MB rss 240.54MB
+2021-07-23 16:29:29-log: [Build] Number of scenes: 1
+2021-07-23 16:29:29-log: [Build] Query and organize assets √7%
+2021-07-23 16:29:29-log: [Build] Organize scripts start7%
+2021-07-23 16:29:29-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.93MB heapUsed 108.75MB rss 240.64MB
+2021-07-23 16:29:29-log: [Build] sort script group...
+2021-07-23 16:29:29-log: [Build] Organize scripts √10%
+2021-07-23 16:29:29-log: [Build] Init settings and config start10%
+2021-07-23 16:29:29-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.93MB heapUsed 108.77MB rss 240.67MB
+2021-07-23 16:29:29-log: [Build] Init settings and config √11%
+2021-07-23 16:29:29-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:29:29-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:29:29-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.93MB heapUsed 108.79MB rss 240.69MB
+2021-07-23 16:29:29-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:29:29-log: [Build] Use cached settings start11%
+2021-07-23 16:29:29-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.19MB rss 240.10MB
+2021-07-23 16:29:29-log: [Build] Use cached settings √12%
+2021-07-23 16:29:29-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:29:29-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.25MB rss 240.16MB
+2021-07-23 16:29:29-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:29:29-log: [Build] custom joint physics start12%
+2021-07-23 16:29:29-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.26MB rss 240.18MB
+2021-07-23 16:29:29-log: [Build] custom joint physics √13%
+2021-07-23 16:29:29-log: [Build] Fill script data to settings start13%
+2021-07-23 16:29:29-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.27MB rss 240.20MB
+2021-07-23 16:29:29-log: [Build] Fill script data to settings √13%
+2021-07-23 16:29:29-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:29:29-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.28MB rss 240.20MB
+2021-07-23 16:29:29-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:29:29-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:29:29-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.29MB rss 240.22MB
+2021-07-23 16:29:29-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:29:29-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:29:29-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:29:29-log: [Build] Process: heapTotal 112.76MB heapUsed 108.31MB rss 240.24MB
+2021-07-23 16:29:29-log: [Build] options.md5Cache is false.
+2021-07-23 16:29:29-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:29:41-log: [Scene] @Inject function to list
+2021-07-23 16:29:41-log: [Scene] @Inject function to list
+2021-07-23 16:29:42-log: [Build] Query all assets info in project
+2021-07-23 16:29:42-log: [Build] BuildAssetLibrary initialized with asset 249!
+2021-07-23 16:29:42-log: [Build]   Number of all scenes: 1
+2021-07-23 16:29:42-log: [Build]   Number of all scripts: 2
+2021-07-23 16:29:42-log: [Build]   Number of other assets: 258
+2021-07-23 16:29:42-log: [Build] Query asset bundle start0%
+2021-07-23 16:29:42-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.44MB rss 240.83MB
+2021-07-23 16:29:42-log: [Build] Query asset bundle √3%
+2021-07-23 16:29:42-log: [Build] Query and organize assets start3%
+2021-07-23 16:29:42-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.46MB rss 241.11MB
+2021-07-23 16:29:42-log: [Build] Number of scenes: 1
+2021-07-23 16:29:42-warn: [Build] Missing class: b748epo/otPUovAW/pcPXV1
+2021-07-23 16:29:42-log: [Build] Query and organize assets √7%
+2021-07-23 16:29:42-log: [Build] Organize scripts start7%
+2021-07-23 16:29:42-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.69MB rss 242.46MB
+2021-07-23 16:29:42-log: [Build] sort script group...
+2021-07-23 16:29:42-log: [Build] Organize scripts √10%
+2021-07-23 16:29:42-log: [Build] Init settings and config start10%
+2021-07-23 16:29:42-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.71MB rss 242.58MB
+2021-07-23 16:29:42-log: [Build] Init settings and config √11%
+2021-07-23 16:29:42-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:29:42-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:29:42-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.72MB rss 242.75MB
+2021-07-23 16:29:42-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:29:42-log: [Build] Use cached settings start11%
+2021-07-23 16:29:42-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.75MB rss 243.63MB
+2021-07-23 16:29:42-log: [Build] Use cached settings √12%
+2021-07-23 16:29:42-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:29:42-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.80MB rss 243.95MB
+2021-07-23 16:29:42-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:29:42-log: [Build] custom joint physics start12%
+2021-07-23 16:29:42-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.82MB rss 242.80MB
+2021-07-23 16:29:42-log: [Build] custom joint physics √13%
+2021-07-23 16:29:42-log: [Build] Fill script data to settings start13%
+2021-07-23 16:29:42-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.83MB rss 242.84MB
+2021-07-23 16:29:42-log: [Build] Fill script data to settings √13%
+2021-07-23 16:29:42-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:29:42-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.84MB rss 242.91MB
+2021-07-23 16:29:42-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:29:42-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:29:42-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.85MB rss 242.96MB
+2021-07-23 16:29:42-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:29:42-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:29:42-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:29:42-log: [Build] Process: heapTotal 112.93MB heapUsed 108.87MB rss 243.02MB
+2021-07-23 16:29:42-log: [Build] options.md5Cache is false.
+2021-07-23 16:29:42-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:30:47-log: [Scene] @Inject function to list
+2021-07-23 16:30:47-log: [Scene] @Inject function to list
+2021-07-23 16:30:48-log: [Build] Query all assets info in project
+2021-07-23 16:30:48-log: [Build] BuildAssetLibrary initialized with asset 249!
+2021-07-23 16:30:48-log: [Build]   Number of all scenes: 1
+2021-07-23 16:30:48-log: [Build]   Number of all scripts: 2
+2021-07-23 16:30:48-log: [Build]   Number of other assets: 258
+2021-07-23 16:30:48-log: [Build] Query asset bundle start0%
+2021-07-23 16:30:48-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.28MB rss 241.36MB
+2021-07-23 16:30:48-log: [Build] Query asset bundle √3%
+2021-07-23 16:30:48-log: [Build] Query and organize assets start3%
+2021-07-23 16:30:48-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.30MB rss 241.39MB
+2021-07-23 16:30:48-log: [Build] Number of scenes: 1
+2021-07-23 16:30:48-log: [Build] Query and organize assets √7%
+2021-07-23 16:30:48-log: [Build] Organize scripts start7%
+2021-07-23 16:30:48-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.41MB rss 241.51MB
+2021-07-23 16:30:48-log: [Build] sort script group...
+2021-07-23 16:30:48-log: [Build] Organize scripts √10%
+2021-07-23 16:30:48-log: [Build] Init settings and config start10%
+2021-07-23 16:30:48-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.43MB rss 241.53MB
+2021-07-23 16:30:48-log: [Build] Init settings and config √11%
+2021-07-23 16:30:48-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:30:48-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:30:48-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.44MB rss 241.55MB
+2021-07-23 16:30:48-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:30:48-log: [Build] Use cached settings start11%
+2021-07-23 16:30:48-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.47MB rss 241.58MB
+2021-07-23 16:30:48-log: [Build] Use cached settings √12%
+2021-07-23 16:30:48-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:30:48-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.52MB rss 241.60MB
+2021-07-23 16:30:48-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:30:48-log: [Build] custom joint physics start12%
+2021-07-23 16:30:48-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.53MB rss 241.63MB
+2021-07-23 16:30:48-log: [Build] custom joint physics √13%
+2021-07-23 16:30:48-log: [Build] Fill script data to settings start13%
+2021-07-23 16:30:48-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.54MB rss 241.64MB
+2021-07-23 16:30:48-log: [Build] Fill script data to settings √13%
+2021-07-23 16:30:48-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:30:48-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.56MB rss 241.66MB
+2021-07-23 16:30:48-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:30:48-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:30:48-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.86MB heapUsed 109.57MB rss 241.67MB
+2021-07-23 16:30:48-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:30:48-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:30:48-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:30:48-log: [Build] Process: heapTotal 113.68MB heapUsed 108.90MB rss 241.00MB
+2021-07-23 16:30:48-log: [Build] options.md5Cache is false.
+2021-07-23 16:30:48-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:31:20-log: [Scene] @Inject function to list
+2021-07-23 16:31:20-log: [Scene] @Inject function to list
+2021-07-23 16:31:20-log: [Scene] @Inject function to list
+2021-07-23 16:31:20-log: [Scene] @Inject function to list
+2021-07-23 16:31:20-log: [Scene] @Inject function to list
+2021-07-23 16:31:21-log: [Build] Query all assets info in project
+2021-07-23 16:31:21-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:31:21-log: [Build]   Number of all scenes: 1
+2021-07-23 16:31:21-log: [Build]   Number of all scripts: 3
+2021-07-23 16:31:21-log: [Build]   Number of other assets: 258
+2021-07-23 16:31:21-log: [Build] Query asset bundle start0%
+2021-07-23 16:31:21-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.06MB rss 241.07MB
+2021-07-23 16:31:21-log: [Build] Query asset bundle √3%
+2021-07-23 16:31:21-log: [Build] Query and organize assets start3%
+2021-07-23 16:31:21-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.08MB rss 241.09MB
+2021-07-23 16:31:21-log: [Build] Number of scenes: 1
+2021-07-23 16:31:21-warn: [Build] Missing class: b748epo/otPUovAW/pcPXV1
+2021-07-23 16:31:21-log: [Build] Query and organize assets √7%
+2021-07-23 16:31:21-log: [Build] Organize scripts start7%
+2021-07-23 16:31:21-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.31MB rss 241.33MB
+2021-07-23 16:31:21-log: [Build] sort script group...
+2021-07-23 16:31:21-log: [Build] Organize scripts √10%
+2021-07-23 16:31:21-log: [Build] Init settings and config start10%
+2021-07-23 16:31:21-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.34MB rss 241.36MB
+2021-07-23 16:31:21-log: [Build] Init settings and config √11%
+2021-07-23 16:31:21-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:31:21-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:31:21-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.35MB rss 241.38MB
+2021-07-23 16:31:21-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:31:21-log: [Build] Use cached settings start11%
+2021-07-23 16:31:21-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.37MB rss 241.41MB
+2021-07-23 16:31:21-log: [Build] Use cached settings √12%
+2021-07-23 16:31:21-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:31:21-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.42MB rss 241.47MB
+2021-07-23 16:31:21-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:31:21-log: [Build] custom joint physics start12%
+2021-07-23 16:31:21-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.44MB rss 241.48MB
+2021-07-23 16:31:21-log: [Build] custom joint physics √13%
+2021-07-23 16:31:21-log: [Build] Fill script data to settings start13%
+2021-07-23 16:31:21-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.45MB rss 241.50MB
+2021-07-23 16:31:21-log: [Build] Fill script data to settings √13%
+2021-07-23 16:31:21-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:31:21-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.46MB rss 241.52MB
+2021-07-23 16:31:21-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:31:21-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:31:21-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.47MB rss 241.53MB
+2021-07-23 16:31:21-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:31:21-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:31:21-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:31:21-log: [Build] Process: heapTotal 113.86MB heapUsed 109.48MB rss 241.55MB
+2021-07-23 16:31:21-log: [Build] options.md5Cache is false.
+2021-07-23 16:31:21-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:33:05-log: [Scene] @Inject function to list
+2021-07-23 16:33:05-log: [Scene] @Inject function to list
+2021-07-23 16:33:05-log: [Scene] @Inject function to list
+2021-07-23 16:33:05-log: [Scene] @Inject function to list
+2021-07-23 16:33:05-log: [Scene] @Inject function to list
+2021-07-23 16:33:05-log: [Build] Query all assets info in project
+2021-07-23 16:33:05-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:33:05-log: [Build]   Number of all scenes: 1
+2021-07-23 16:33:05-log: [Build]   Number of all scripts: 3
+2021-07-23 16:33:05-log: [Build]   Number of other assets: 258
+2021-07-23 16:33:05-log: [Build] Query asset bundle start0%
+2021-07-23 16:33:05-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.41MB rss 241.80MB
+2021-07-23 16:33:05-log: [Build] Query asset bundle √3%
+2021-07-23 16:33:05-log: [Build] Query and organize assets start3%
+2021-07-23 16:33:05-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.43MB rss 241.71MB
+2021-07-23 16:33:05-log: [Build] Number of scenes: 1
+2021-07-23 16:33:05-log: [Build] Query and organize assets √7%
+2021-07-23 16:33:05-log: [Build] Organize scripts start7%
+2021-07-23 16:33:05-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.54MB rss 241.82MB
+2021-07-23 16:33:05-log: [Build] sort script group...
+2021-07-23 16:33:05-log: [Build] Organize scripts √10%
+2021-07-23 16:33:05-log: [Build] Init settings and config start10%
+2021-07-23 16:33:05-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.56MB rss 241.85MB
+2021-07-23 16:33:05-log: [Build] Init settings and config √11%
+2021-07-23 16:33:05-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:33:05-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:33:05-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.58MB rss 241.87MB
+2021-07-23 16:33:05-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:33:05-log: [Build] Use cached settings start11%
+2021-07-23 16:33:05-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.60MB rss 241.89MB
+2021-07-23 16:33:05-log: [Build] Use cached settings √12%
+2021-07-23 16:33:05-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:33:05-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.65MB rss 241.93MB
+2021-07-23 16:33:05-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:33:05-log: [Build] custom joint physics start12%
+2021-07-23 16:33:05-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.67MB rss 241.95MB
+2021-07-23 16:33:05-log: [Build] custom joint physics √13%
+2021-07-23 16:33:05-log: [Build] Fill script data to settings start13%
+2021-07-23 16:33:05-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.68MB rss 241.97MB
+2021-07-23 16:33:05-log: [Build] Fill script data to settings √13%
+2021-07-23 16:33:05-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:33:05-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.69MB rss 241.98MB
+2021-07-23 16:33:05-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:33:05-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:33:05-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.70MB rss 242.00MB
+2021-07-23 16:33:05-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:33:05-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:33:05-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:33:05-log: [Build] Process: heapTotal 114.03MB heapUsed 109.71MB rss 242.02MB
+2021-07-23 16:33:05-log: [Build] options.md5Cache is false.
+2021-07-23 16:33:05-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:34:31-log: [Scene] @Inject function to list
+2021-07-23 16:34:31-log: [Scene] @Inject function to list
+2021-07-23 16:34:31-log: [Scene] @Inject function to list
+2021-07-23 16:34:31-log: [Scene] @Inject function to list
+2021-07-23 16:34:31-log: [Scene] @Inject function to list
+2021-07-23 16:34:31-log: [Build] Query all assets info in project
+2021-07-23 16:34:31-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:34:31-log: [Build]   Number of all scenes: 1
+2021-07-23 16:34:31-log: [Build]   Number of all scripts: 3
+2021-07-23 16:34:31-log: [Build]   Number of other assets: 258
+2021-07-23 16:34:31-log: [Build] Query asset bundle start0%
+2021-07-23 16:34:31-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.20MB heapUsed 109.89MB rss 241.98MB
+2021-07-23 16:34:31-log: [Build] Query asset bundle √3%
+2021-07-23 16:34:31-log: [Build] Query and organize assets start3%
+2021-07-23 16:34:31-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.20MB heapUsed 109.91MB rss 241.98MB
+2021-07-23 16:34:31-log: [Build] Number of scenes: 1
+2021-07-23 16:34:31-warn: [Build] Missing class: b748epo/otPUovAW/pcPXV1
+2021-07-23 16:34:31-log: [Build] Query and organize assets √7%
+2021-07-23 16:34:31-log: [Build] Organize scripts start7%
+2021-07-23 16:34:31-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.59MB rss 241.60MB
+2021-07-23 16:34:31-log: [Build] sort script group...
+2021-07-23 16:34:31-log: [Build] Organize scripts √10%
+2021-07-23 16:34:31-log: [Build] Init settings and config start10%
+2021-07-23 16:34:31-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.62MB rss 241.63MB
+2021-07-23 16:34:31-log: [Build] Init settings and config √11%
+2021-07-23 16:34:31-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:34:31-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:34:31-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.63MB rss 241.65MB
+2021-07-23 16:34:31-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:34:31-log: [Build] Use cached settings start11%
+2021-07-23 16:34:31-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.66MB rss 241.68MB
+2021-07-23 16:34:31-log: [Build] Use cached settings √12%
+2021-07-23 16:34:31-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:34:31-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.71MB rss 241.70MB
+2021-07-23 16:34:31-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:34:31-log: [Build] custom joint physics start12%
+2021-07-23 16:34:31-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.72MB rss 241.72MB
+2021-07-23 16:34:31-log: [Build] custom joint physics √13%
+2021-07-23 16:34:31-log: [Build] Fill script data to settings start13%
+2021-07-23 16:34:31-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.73MB rss 241.73MB
+2021-07-23 16:34:31-log: [Build] Fill script data to settings √13%
+2021-07-23 16:34:31-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:34:31-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.74MB rss 241.75MB
+2021-07-23 16:34:31-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:34:31-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:34:31-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.76MB rss 241.78MB
+2021-07-23 16:34:31-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:34:31-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:34:31-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:34:31-log: [Build] Process: heapTotal 114.03MB heapUsed 109.77MB rss 241.80MB
+2021-07-23 16:34:31-log: [Build] options.md5Cache is false.
+2021-07-23 16:34:31-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:34:56-log: [Scene] @Inject function to list
+2021-07-23 16:34:56-log: [Scene] @Inject function to list
+2021-07-23 16:34:56-log: [Scene] @Inject function to list
+2021-07-23 16:34:56-log: [Scene] @Inject function to list
+2021-07-23 16:34:56-log: [Scene] @Inject function to list
+2021-07-23 16:34:57-log: [Build] Query all assets info in project
+2021-07-23 16:34:57-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:34:57-log: [Build]   Number of all scenes: 1
+2021-07-23 16:34:57-log: [Build]   Number of all scripts: 3
+2021-07-23 16:34:57-log: [Build]   Number of other assets: 258
+2021-07-23 16:34:57-log: [Build] Query asset bundle start0%
+2021-07-23 16:34:57-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 109.83MB rss 241.89MB
+2021-07-23 16:34:57-log: [Build] Query asset bundle √3%
+2021-07-23 16:34:57-log: [Build] Query and organize assets start3%
+2021-07-23 16:34:57-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 109.85MB rss 241.92MB
+2021-07-23 16:34:57-log: [Build] Number of scenes: 1
+2021-07-23 16:34:57-log: [Build] Query and organize assets √7%
+2021-07-23 16:34:57-log: [Build] Organize scripts start7%
+2021-07-23 16:34:57-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 109.95MB rss 242.02MB
+2021-07-23 16:34:57-log: [Build] sort script group...
+2021-07-23 16:34:57-log: [Build] Organize scripts √10%
+2021-07-23 16:34:57-log: [Build] Init settings and config start10%
+2021-07-23 16:34:57-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 109.98MB rss 242.05MB
+2021-07-23 16:34:57-log: [Build] Init settings and config √11%
+2021-07-23 16:34:57-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:34:57-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:34:57-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.00MB rss 242.07MB
+2021-07-23 16:34:57-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:34:57-log: [Build] Use cached settings start11%
+2021-07-23 16:34:57-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.02MB rss 242.09MB
+2021-07-23 16:34:57-log: [Build] Use cached settings √12%
+2021-07-23 16:34:57-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:34:57-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.07MB rss 242.14MB
+2021-07-23 16:34:57-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:34:57-log: [Build] custom joint physics start12%
+2021-07-23 16:34:57-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.09MB rss 242.16MB
+2021-07-23 16:34:57-log: [Build] custom joint physics √13%
+2021-07-23 16:34:57-log: [Build] Fill script data to settings start13%
+2021-07-23 16:34:57-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.10MB rss 242.16MB
+2021-07-23 16:34:57-log: [Build] Fill script data to settings √13%
+2021-07-23 16:34:57-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:34:57-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.11MB rss 242.17MB
+2021-07-23 16:34:57-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:34:57-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:34:57-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.12MB rss 242.18MB
+2021-07-23 16:34:57-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:34:57-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:34:57-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:34:57-log: [Build] Process: heapTotal 114.20MB heapUsed 110.13MB rss 242.20MB
+2021-07-23 16:34:57-log: [Build] options.md5Cache is false.
+2021-07-23 16:34:57-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%
+2021-07-23 16:35:52-log: [Scene] @Inject function to list
+2021-07-23 16:35:52-log: [Scene] @Inject function to list
+2021-07-23 16:35:52-log: [Scene] @Inject function to list
+2021-07-23 16:35:52-log: [Scene] @Inject function to list
+2021-07-23 16:35:52-log: [Scene] @Inject function to list
+2021-07-23 16:35:54-log: [Build] Query all assets info in project
+2021-07-23 16:35:54-log: [Build] BuildAssetLibrary initialized with asset 250!
+2021-07-23 16:35:54-log: [Build]   Number of all scenes: 1
+2021-07-23 16:35:54-log: [Build]   Number of all scripts: 3
+2021-07-23 16:35:54-log: [Build]   Number of other assets: 258
+2021-07-23 16:35:54-log: [Build] Query asset bundle start0%
+2021-07-23 16:35:54-log: [Build] // ---- Query asset bundle ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.04MB rss 242.11MB
+2021-07-23 16:35:54-log: [Build] Query asset bundle √3%
+2021-07-23 16:35:54-log: [Build] Query and organize assets start3%
+2021-07-23 16:35:54-log: [Build] // ---- Query and organize assets ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.07MB rss 242.09MB
+2021-07-23 16:35:54-log: [Build] Number of scenes: 1
+2021-07-23 16:35:54-warn: [Build] Missing class: b748epo/otPUovAW/pcPXV1
+2021-07-23 16:35:54-log: [Build] Query and organize assets √7%
+2021-07-23 16:35:54-log: [Build] Organize scripts start7%
+2021-07-23 16:35:54-log: [Build] // ---- Organize scripts ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.29MB rss 242.32MB
+2021-07-23 16:35:54-log: [Build] sort script group...
+2021-07-23 16:35:54-log: [Build] Organize scripts √10%
+2021-07-23 16:35:54-log: [Build] Init settings and config start10%
+2021-07-23 16:35:54-log: [Build] // ---- Init settings and config ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.32MB rss 242.35MB
+2021-07-23 16:35:54-log: [Build] Init settings and config √11%
+2021-07-23 16:35:54-log: [Build] tasks.settings.macro does not defined in i18n
+2021-07-23 16:35:54-log: [Build] tasks.settings.macro start11%
+2021-07-23 16:35:54-log: [Build] // ---- tasks.settings.macro ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.33MB rss 242.37MB
+2021-07-23 16:35:54-log: [Build] tasks.settings.macro √11%
+2021-07-23 16:35:54-log: [Build] Use cached settings start11%
+2021-07-23 16:35:54-log: [Build] // ---- Use cached settings ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.36MB rss 242.39MB
+2021-07-23 16:35:54-log: [Build] Use cached settings √12%
+2021-07-23 16:35:54-log: [Build] custom joint texture layouts start12%
+2021-07-23 16:35:54-log: [Build] // ---- custom joint texture layouts ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.41MB rss 242.44MB
+2021-07-23 16:35:54-log: [Build] custom joint texture layouts √12%
+2021-07-23 16:35:54-log: [Build] custom joint physics start12%
+2021-07-23 16:35:54-log: [Build] // ---- custom joint physics ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.42MB rss 242.46MB
+2021-07-23 16:35:54-log: [Build] custom joint physics √13%
+2021-07-23 16:35:54-log: [Build] Fill script data to settings start13%
+2021-07-23 16:35:54-log: [Build] // ---- Fill script data to settings ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.44MB rss 242.47MB
+2021-07-23 16:35:54-log: [Build] Fill script data to settings √13%
+2021-07-23 16:35:54-log: [Build] Fill scene data to settings start13%
+2021-07-23 16:35:54-log: [Build] // ---- Fill scene data to settings ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.45MB rss 242.48MB
+2021-07-23 16:35:54-log: [Build] Fill scene data to settings √14%
+2021-07-23 16:35:54-log: [Build] Organize assets groups，generate packedAssets and rawAssets data start14%
+2021-07-23 16:35:54-log: [Build] // ---- Organize assets groups，generate packedAssets and rawAssets data ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.46MB rss 242.49MB
+2021-07-23 16:35:54-log: [Build] Organize assets groups，generate packedAssets and rawAssets data √14%
+2021-07-23 16:35:54-log: [Build] Generate md5AssetsMap from suffixMap to settings start14%
+2021-07-23 16:35:54-log: [Build] // ---- Generate md5AssetsMap from suffixMap to settings ----
+2021-07-23 16:35:54-log: [Build] Process: heapTotal 114.37MB heapUsed 110.47MB rss 242.50MB
+2021-07-23 16:35:54-log: [Build] options.md5Cache is false.
+2021-07-23 16:35:54-log: [Build] Generate md5AssetsMap from suffixMap to settings √15%

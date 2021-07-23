@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 15155.41590000689,
+    "mTimestamp": 29088.60949999094,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,11 +389,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 4485812.948100001,
+    "mTimestamp": 840324.7163999975,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts",
+        "value": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts",
         "rewritten": "__unresolved_0",
         "loc": {
           "start": {
@@ -402,35 +402,35 @@
           },
           "end": {
             "line": 5,
-            "column": 91
+            "column": 100
           }
         }
       },
       {
-        "value": "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts",
+        "value": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts",
         "rewritten": "__unresolved_1",
         "loc": {
           "start": {
             "line": 5,
-            "column": 107
+            "column": 116
           },
           "end": {
             "line": 5,
-            "column": 166
+            "column": 184
           }
         }
       },
       {
-        "value": "file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts",
+        "value": "file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts",
         "rewritten": "__unresolved_2",
         "loc": {
           "start": {
             "line": 5,
-            "column": 182
+            "column": 200
           },
           "end": {
             "line": 5,
-            "column": 242
+            "column": 269
           }
         }
       }
@@ -441,56 +441,21 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts"
       }
     ]
   },
-  "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts": {
-    "mTimestamp": 1625817634556.0647,
-    "chunkId": "assets/Script/Client.js",
-    "imports": [
-      {
-        "value": "cc"
-      },
-      {
-        "value": "cc",
-        "loc": {
-          "start": {
-            "line": 2,
-            "column": 44
-          },
-          "end": {
-            "line": 2,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "modLoMetadata": {
-      "type": "esm"
-    },
-    "resolvedImports": [
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      },
-      {
-        "isExternal": false,
-        "url": "cce:/internal/x/cc"
-      }
-    ]
-  },
-  "file:///E:/Cases/TestFrameWork/assets/Script/PluginNode.ts": {
-    "mTimestamp": 1626944038961.218,
-    "chunkId": "assets/Script/PluginNode.js",
+  "file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts": {
+    "mTimestamp": 1627029221463.4922,
+    "chunkId": "assets/Scripts/PluginNode.js",
     "imports": [
       {
         "value": "cce:/internal/code-quality/cr.mjs",
@@ -504,11 +469,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 89
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 93
           }
         }
       },
@@ -545,13 +510,13 @@
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts"
       }
     ]
   },
-  "file:///E:/Cases/TestFrameWork/assets/Script/Framework.ts": {
-    "mTimestamp": 1626944003401.5454,
-    "chunkId": "assets/Script/Framework.js",
+  "file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts": {
+    "mTimestamp": 1627029350913.264,
+    "chunkId": "assets/Scripts/Framework.js",
     "imports": [
       {
         "value": "cce:/internal/code-quality/cr.mjs",
@@ -565,11 +530,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 121
+            "column": 125
           },
           "end": {
             "line": 2,
-            "column": 125
+            "column": 129
           }
         }
       },
@@ -606,12 +571,47 @@
       },
       {
         "isExternal": false,
-        "url": "file:///E:/Cases/TestFrameWork/assets/Script/Client.ts"
+        "url": "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts"
+      }
+    ]
+  },
+  "file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts": {
+    "mTimestamp": 1625817634556.0647,
+    "chunkId": "assets/Scripts/Client.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
       }
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1626942089634,
+    "mTimestamp": 1627028512195,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {

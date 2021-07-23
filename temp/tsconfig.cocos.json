@@ -6,15 +6,15 @@
     "strict": true,
     "types": [
       "./temp/declarations/jsb",
-      "./temp/declarations/cc.env",
-      "./temp/declarations/cc"
+      "./temp/declarations/cc",
+      "./temp/declarations/cc.env"
     ],
     "paths": {
       "db://internal/*": [
-        "E:\\engine\\editor\\assets\\*"
+        "C:\\Users\\Administrator\\Downloads\\CocosCreator-v3.3.0-win32-072101\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
-        "E:\\Cases\\TestFrameWork\\assets\\*"
+        "E:\\Cases\\test-light\\NewProject\\assets\\*"
       ]
     },
     "experimentalDecorators": true,
