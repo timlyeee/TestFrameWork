@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>WebSocket Chat</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+        function returnPromise(){
+            return new Promise((resolve)=>{
+                console.log("Promise");
+                resolve();
+            })
+        }
+        
+        returnPromise().then(()=>{console.log("next")}).catch((err)=>{
+            console.log(err)
+        })
+		
+	</script>
+	<form onsubmit="return false;">
+		<h3>WebSocket Client</h3>
+		<textarea id="responseText" style="width: 500px; height: 300px;"></textarea>
+		<br>
+		<input type="text" name="message" style="width: 300px" value="Welcome to waylau.com">
+		<input type="button" value="send" onclick="send(this.form.message.value)">
+		<input type="button" onclick="javascript:document.getElementById('responseText').value=''" 
+			value="清空聊天记录">
+	</form>
+	<br>
+	<br>
+</body>
+
+</html>

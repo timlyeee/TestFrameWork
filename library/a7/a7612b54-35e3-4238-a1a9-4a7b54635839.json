@@ -1523,6 +1523,13 @@
           ]
         },
         {
+          "name": "CC_STANDARD_TRANSPARENT",
+          "type": "boolean",
+          "defines": [
+            "CC_FORWARD_ADD"
+          ]
+        },
+        {
           "name": "CC_USE_HDR",
           "type": "boolean",
           "defines": []

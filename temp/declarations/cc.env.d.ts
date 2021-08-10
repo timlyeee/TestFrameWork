@@ -15,6 +15,8 @@ declare module "cc/env" {
 
     export const JSB: boolean;
 
+    export const NATIVE: boolean;
+
     export const HTML5: boolean;
 
     export const WECHAT: boolean;

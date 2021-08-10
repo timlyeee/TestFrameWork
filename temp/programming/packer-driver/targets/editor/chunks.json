@@ -87,41 +87,14 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1627028547299,
+    "mTimestamp": 1628564332094,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
-  },
-  "assets/Scripts/Client.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Scripts/Client.js",
-    "mTimestamp": 1627028638984
   },
   "quick-pack:/cce/internal/code-quality/cr.js": {
     "imports": {},
     "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1627028638996
-  },
-  "assets/Scripts/PluginNode.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "__unresolved_0": "quick-pack:/cce/internal/code-quality/cr.js",
-      "__unresolved_1": "assets/Scripts/Framework.js"
-    },
-    "physicalLocation": "fs/0/assets/Scripts/PluginNode.js",
-    "mTimestamp": 1627029271000
-  },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "__unresolved_0": "assets/Scripts/Client.js",
-      "__unresolved_2": "assets/Scripts/PluginNode.js",
-      "__unresolved_1": "assets/Scripts/Framework.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1627029352485,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
+    "mTimestamp": 1628564332307
   },
   "assets/Scripts/Framework.js": {
     "imports": {
@@ -130,6 +103,23 @@
       "__unresolved_1": "assets/Scripts/Client.js"
     },
     "physicalLocation": "fs/0/assets/Scripts/Framework.js",
-    "mTimestamp": 1627029352516
+    "mTimestamp": 1628591314023
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_1": "assets/Scripts/Framework.js",
+      "__unresolved_0": "assets/Scripts/Client.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1628591698304,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/Scripts/Client.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Scripts/Client.js",
+    "mTimestamp": 1628591698334
   }
 }

@@ -40,7 +40,9 @@ export class Client {
      */
     public wsOnMessage(receiveCallBack: Function) {
         this.websocket.addEventListener("message", (event) => {
+            console.log("websocket message received"+event);
             receiveCallBack(event);
+            TestNodeController.loopIsLocked = false
         })
     }
 
@@ -52,8 +54,8 @@ export class Client {
 export class TestNode {
     public isHead: boolean;
     public testName: string;
-    public currentTest: Promise<string>;
-    constructor(_testName: string, f: Promise<string>) {
+    public currentTest:  (...args: any[]) => Promise<any>;
+    constructor(_testName: string, f: (...args: any[]) => Promise<any>) {
 
         this.testName = _testName;
         this.currentTest = f;
@@ -72,41 +74,40 @@ export class TestNode {
 /** TestNode controller */
 export class TestNodeController {
     public static Instance: TestNodeController;
-    public loopIsLocked: boolean = false;
+    public static loopIsLocked: boolean = false;
     public nodes: TestNode[] = [];
     constructor() {
         if (!TestNodeController.Instance)
             TestNodeController.Instance = this;
-
-
     }
     public addTest(t: TestNode) {
         this.nodes.push(t);
     }
-    public testToEnd() {
-        while (!this.nodes.length) {
-            if(!this.loopIsLocked){
+    public async testToEnd() {
+        console.log("this.node.length:"+this.nodes.length)
+        while (this.nodes.length != 0) {
+            if(!TestNodeController.loopIsLocked){
                 //lock the loop
-                this.loopIsLocked = true;
+                TestNodeController.loopIsLocked = true;
                 console.log("start Test: "+this.nodes[0].testName);
-                this.sendMessage(this.nodes[0]).then(()=>{
-                    this.nodes[0].currentTest.then(()=>{
-                        this.nodes.splice(0,1);
-                        this.loopIsLocked = false;
-                    });
-                    
-                    
-                });
+                // const ok = await this.nodes[0].currentTest();
+                // debugger;
+                // this.sendMessage(this.nodes[0]);
+                // this.nodes.splice(0,1);
+
+                await this.nodes[0].currentTest().then(()=>{
+                    this.sendMessage(this.nodes[0]);
+                    this.nodes.splice(0,1);
+                }).catch(()=>{
+                    console.log("sd");
+                })
+                
             }
             
         }
 
     }
-    public async sendMessage(t: TestNode): Promise<string> {
-
-        var _p = new Promise<string>((resolve, reject) => {
-            Client.Instance.websocket.send("this test is" + t.testName);
-        });
-        return _p;
+    public sendMessage(t: TestNode){
+        Client.Instance.websocket.send("this test is:" + t.testName);
     }
 }

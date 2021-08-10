@@ -1,24 +1,23 @@
-debug: Fri, 23 Jul 2021 08:22:21 GMT
-debug: Project: E:\Cases\test-light\NewProject
+debug: Tue, 10 Aug 2021 02:58:45 GMT
+debug: Project: E:\Cases\TestFrameWork
 debug: Targets: editor,preview
-error: Failed to load import map at E:\Cases\test-light\NewProject\import-map.json: Error: ENOENT: no such file or directory, open 'E:\Cases\test-light\NewProject\import-map.json'
-debug: Packer deriver version file lost or format incorrect: Error: ENOENT: no such file or directory, open 'E:\Cases\test-light\NewProject\temp\programming\packer-driver\VERSION'
+debug: Packer deriver version file lost or format incorrect: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\temp\programming\packer-driver\VERSION'
 debug: Clearing out the targets...
-debug: Engine path: C:\Users\Administrator\Downloads\CocosCreator-v3.3.0-win32-072101\resources\resources\3d\engine
+debug: Engine path: C:\Users\Administrator\Downloads\CocosCreator-v3.3.0-win32-080910\resources\resources\3d\engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open 'E:\Cases\test-light\NewProject\temp\programming\packer-driver\targets\editor\modules.json'
-debug: Loading cache costs 0.3263999819755554ms.
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\temp\programming\packer-driver\targets\editor\modules.json'
+debug: Loading cache costs 0.30619996786117554ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open 'E:\Cases\test-light\NewProject\temp\programming\packer-driver\targets\preview\modules.json'
-debug: Loading cache costs 0.2964000105857849ms.
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open 'E:\Cases\TestFrameWork\temp\programming\packer-driver\targets\preview\modules.json'
+debug: Loading cache costs 0.27399998903274536ms.
 debug: Sync engine features: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,physics-ammo,physics-2d-box2d,intersection-2d,primitive,profiler,particle-2d,audio,video,webview,tween,terrain,tiled-map,spine,dragon-bones
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 4.8384000062942505ms.
+debug: Fetch asset-db cost: 9.605499982833862ms.
 debug: Build iteration starts.
-Number of accumulated asset changes: 0
+Number of accumulated asset changes: 2
 Feature changed: false
 debug: Target(editor) build started.
 debug: Inspect cce:/internal/x/cc
@@ -44,7 +43,18 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Target(editor) ends with cost 62.32379999756813ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 276.1958000063896ms.
 debug: Target(preview) build started.
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
@@ -72,362 +82,1131 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Target(preview) ends with cost 48.44359999895096ms.
-debug: Dispatch build request for time accumulated 3 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 3
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:29 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:02:06 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
 debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts as cce:/internal/x/cc.
-debug: Resolve ./Framework from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 226.7809999883175ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:29 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:02:06 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Inspect cce:/internal/code-quality/cr.mjs
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts as cce:/internal/x/cc.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Framework from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 176.8014000058174ms.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 195.0974999666214ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:04:23 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:25:15 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 15:03:18 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:26:13 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 53.63709998130798ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 10:47:44 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:23:28 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 63.13929998874664ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:02:06 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:04:23 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:25:15 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 15:03:18 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:26:13 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 78.40029999613762ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 10:47:44 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:23:28 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 82.494500041008ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:00 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:25:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:26:42 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:26:13 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:26:45 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 61.91670000553131ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:23:28 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:24:54 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 44.83210003376007ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:04:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:00 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:25:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:26:42 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:26:13 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:26:45 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 86.72499999403954ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:23:28 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:24:54 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 69.02310001850128ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:06:35 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:26:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:35:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:26:45 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:28:26 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 48.74090000987053ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:24:54 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:33:14 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 42.39759999513626ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:05:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:06:35 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:26:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:35:07 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:26:45 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:28:26 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 70.2592000067234ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:24:54 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:33:14 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 70.84119999408722ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:36:08 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Target(editor) ends with cost 9.914700001478195ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 10:54:03 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:34:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 57.067900002002716ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:06:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:36:08 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Target(preview) ends with cost 13.58720001578331ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 10:54:03 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:34:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 74.66620004177094ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:49 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:36:46 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:28:26 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:29:38 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 48.20930001139641ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:33:14 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:34:57 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 46.25919997692108ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:07:49 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:36:46 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:28:26 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:29:38 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 63.522799998521805ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:33:14 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:34:57 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 84.2882000207901ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:55 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:39:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:29:38 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:30:46 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 45.64769998192787ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:34:20 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:37:16 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 50.332099974155426ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:07:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:08:55 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:36:46 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:39:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:29:38 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:30:46 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 60.35019999742508ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:34:20 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:37:16 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 74.93870002031326ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:28 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:39:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:39:05 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Target(editor) ends with cost 12.076500028371811ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:37:16 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:37:18 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 42.0097000002861ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:08:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:09:28 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:39:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:39:05 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Target(preview) ends with cost 12.633199989795685ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:37:16 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:37:18 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 62.575100004673004ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:12 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:39:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:41:02 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts. Last mtime: Fri Jul 23 2021 14:48:54 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:33:03 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve ./Framework from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Target(editor) ends with cost 38.61610001325607ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:34:57 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:39:07 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 33.951100051403046ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:12 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:39:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:41:02 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts. Last mtime: Fri Jul 23 2021 14:48:54 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:33:03 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve ./Framework from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Target(preview) ends with cost 51.81419998407364ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:34:57 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:39:07 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 65.567999958992ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:55:31 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:37:18 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:39:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 44.512799978256226ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:41:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:55:31 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:37:18 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:39:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 58.74480003118515ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:57:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:39:07 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:55:22 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 40.65649998188019ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:57:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:39:07 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 11:55:22 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 65.21289998292923ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:57:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 11:33:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:55:22 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 14:31:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 48.11269998550415ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:57:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 11:33:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 11:55:22 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 14:31:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 48.79850000143051ms.
 debug: Dispatch build request for time accumulated 2 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 2
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:38 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:33:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:29:59 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts. Last mtime: Fri Jul 23 2021 16:33:03 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:33:41 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:30:46 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:34:28 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Framework from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 62.90489998459816ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 14:31:56 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:28:06 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:39:19 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:27:48 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts: SyntaxError: unknown: Unexpected token (46:8)
+
+  44 |             receiveCallBack(event);
+  45 |             TestNodeController.loopIsLocked =
+> 46 |         })
+     |         ^
+  47 |     }
+  48 |
+  49 |.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Target(editor) ends with cost 56.21819996833801ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:12 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:38 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:33:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:29:59 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:30:46 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:34:28 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts. Last mtime: Fri Jul 23 2021 16:33:03 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:33:41 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as cce:/internal/x/cc.
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Framework from file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 89.56520000100136ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 14:31:56 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:28:06 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 11:39:19 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:27:48 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts: SyntaxError: unknown: Unexpected token (46:8)
+
+  44 |             receiveCallBack(event);
+  45 |             TestNodeController.loopIsLocked =
+> 46 |         })
+     |         ^
+  47 |     }
+  48 |
+  49 |.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Target(preview) ends with cost 67.08730000257492ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:13:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:29:59 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:32:20 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:34:28 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:34:56 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 43.21230000257492ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:27:48 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:30:31 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts: SyntaxError: unknown: Unexpected token (46:8)
+
+  44 |             receiveCallBack(event);
+  45 |             TestNodeController.loopIsLocked =
+> 46 |         })
+     |         ^
+  47 |     }
+  48 |
+  49 |.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Target(editor) ends with cost 49.263300001621246ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:38 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:13:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:29:59 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:32:20 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:34:28 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:34:56 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 54.63850000500679ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:27:48 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:30:31 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+error: Failed to load module file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts: SyntaxError: unknown: Unexpected token (46:8)
+
+  44 |             receiveCallBack(event);
+  45 |             TestNodeController.loopIsLocked =
+> 46 |         })
+     |         ^
+  47 |     }
+  48 |
+  49 |.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: We're missing the chunk file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts, referenced as '[object Object]'.
+debug: Target(preview) ends with cost 65.78719997406006ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:13:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:00 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:32:20 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:33:56 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:34:56 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:35:50 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(editor) ends with cost 41.586499989032745ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 32.27539998292923ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:13:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:00 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:32:20 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:33:56 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts.
-debug: Resolve file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/test-light/NewProject/assets/Scripts/PluginNode.ts.
-debug: Detected change: file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts. Last mtime: Fri Jul 23 2021 16:34:56 GMT+0800 (中国标准时间), Current mtime: Fri Jul 23 2021 16:35:50 GMT+0800 (中国标准时间)
-debug: Inspect file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as cce:/internal/x/cc.
-debug: Resolve ./Client from file:///E:/Cases/test-light/NewProject/assets/Scripts/Framework.ts as file:///E:/Cases/test-light/NewProject/assets/Scripts/Client.ts.
-debug: Target(preview) ends with cost 57.13449999690056ms.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 43.7121000289917ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:33:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:36:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:30:31 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:34:29 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 41.8792000412941ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:33:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:36:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:30:31 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:34:29 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 59.138700008392334ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:36:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:44:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 15:32:05 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:39:43 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:34:29 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:42:21 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 63.116299986839294ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:36:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:44:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 15:32:05 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:39:43 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:34:29 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:42:21 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 90.60659998655319ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:44:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:52:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 15:39:43 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:50:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 33.60209995508194ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:44:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:52:45 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 15:39:43 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:50:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 42.19209998846054ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:52:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:53:48 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:42:21 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:51:58 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 80.9375ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:52:45 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:53:49 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:42:21 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:51:58 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 85.88520002365112ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:53:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:54:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:51:58 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:52:37 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 51.35130000114441ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:53:49 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:54:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:51:58 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:52:37 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 70.7311999797821ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:54:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:56:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:52:37 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:55:01 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 50.77770000696182ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:54:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 12:56:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:52:37 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:55:01 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 67.09930002689362ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:56:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:00:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:55:01 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:58:35 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 48.80720001459122ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:56:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:00:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:55:01 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:58:35 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 69.12730002403259ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:00:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:58:35 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:59:07 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 45.88419997692108ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:00:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:58:35 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 15:59:07 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 62.42540001869202ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:00:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:04:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:59:07 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:02:13 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 45.207200050354004ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:00:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:04:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 15:59:07 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:02:13 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 59.66990000009537ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:04:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:07:56 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 15:50:59 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:06:09 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 33.83069998025894ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:04:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:07:56 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 15:50:59 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:06:09 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 46.45269995927811ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:07:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:10:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:06:09 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:08:40 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 32.46729999780655ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:07:56 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:10:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:06:09 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:08:40 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 43.278999984264374ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:10:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:11:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:02:13 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:09:17 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 47.03420001268387ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:10:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:11:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:02:13 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:09:17 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 63.212099969387054ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:11:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:11:43 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:09:17 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:09:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 43.47519999742508ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:11:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:11:43 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:09:17 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:09:56 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 61.980299949645996ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:11:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:17:19 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:09:56 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:10:52 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 46.066600024700165ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:11:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:17:19 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:09:56 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:10:52 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 67.29910004138947ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:17:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:25:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:08:40 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:23:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 28.2674999833107ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:17:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:25:35 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:08:40 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:23:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 42.1768000125885ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:25:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:42:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:23:46 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:35:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:10:52 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:40:01 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 61.449500024318695ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:25:35 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:42:17 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:23:46 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:35:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:10:52 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:40:01 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 81.20579999685287ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:42:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:46:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:35:46 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:44:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 34.54409998655319ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:42:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:46:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:35:46 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:44:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 40.83499997854233ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:46:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:50:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:44:39 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:48:47 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 29.29739999771118ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:46:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:50:34 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:44:39 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:48:47 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 46.60740000009537ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:50:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:52:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:40:01 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:50:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 44.555400013923645ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:50:34 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 13:52:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:40:01 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:50:20 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 56.49059998989105ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:52:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:26:48 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:48:47 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:24:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:50:20 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:52:55 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 60.135099947452545ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:52:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:26:48 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 16:48:47 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:24:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:50:20 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 16:52:55 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 90.59399998188019ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:26:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:30:19 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:52:55 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:28:28 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(editor) ends with cost 41.088699996471405ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:26:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:30:19 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts. Last mtime: Tue Aug 10 2021 16:52:55 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:28:28 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as cce:/internal/x/cc.
+debug: Resolve ./Client from file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Target(preview) ends with cost 56.10910004377365ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:30:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:31:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:24:59 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:29:36 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 26.817900002002716ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:30:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:31:28 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:24:59 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:29:36 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 51.71359997987747ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:31:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:33:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:29:36 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:31:22 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 32.40039998292923ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:31:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:33:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:29:36 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:31:22 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 48.624700009822845ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:33:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:34:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:31:22 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:32:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 55.48620003461838ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:33:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:34:02 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:31:22 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:32:10 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 68.44530004262924ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:34:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:35:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:32:10 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:33:15 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 38.07410001754761ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:34:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:35:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:32:10 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:33:15 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 59.91940003633499ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:35:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:36:44 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:33:15 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:34:49 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 44.527499973773956ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:35:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 15:36:44 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts.
+debug: Resolve file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts from cce:/internal/x/prerequisite-imports as file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts.
+debug: Detected change: file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts. Last mtime: Tue Aug 10 2021 18:33:15 GMT+0800 (中国标准时间), Current mtime: Tue Aug 10 2021 18:34:49 GMT+0800 (中国标准时间)
+debug: Inspect file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 68.04869997501373ms.
