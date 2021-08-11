@@ -1,6 +1,6 @@
 {
   "E:\\Cases\\TestFrameWork\\assets\\MainScene.scene": {
-    "time": 1628591596031.4436,
+    "time": 1628669222985.6006,
     "uuid": "7200053d-6f72-4618-bd91-dbab1cc3893d",
     "missing": false
   },
@@ -15,12 +15,12 @@
     "missing": false
   },
   "E:\\Cases\\TestFrameWork\\assets\\Scripts\\Client.ts": {
-    "time": 1628591689428.5469,
+    "time": 1628669941562.456,
     "uuid": "ebde62d3-56e9-42ef-93f7-080914f6950e",
     "missing": false
   },
   "E:\\Cases\\TestFrameWork\\assets\\Scripts\\Framework.ts": {
-    "time": 1628591308717.115,
+    "time": 1628670148521.0793,
     "uuid": "b748ea68-fe8b-4f52-8bc0-5bfa5c3d7575",
     "missing": false
   },
@@ -28,15 +28,15 @@
     "time": 1628564332001.1194
   },
   "E:\\Cases\\TestFrameWork\\assets\\Scripts\\Client.ts.meta": {
-    "time": 1628564332002.1177
+    "time": 1628646978434.8655
   },
   "E:\\Cases\\TestFrameWork\\assets\\Scripts\\Framework.ts.meta": {
-    "time": 1628564332003.1147
+    "time": 1628646950285.6584
   },
   "E:\\Cases\\TestFrameWork\\assets\\Scripts\\autoTestConfig.json.meta": {
     "time": 1628564332013.088
   },
   "E:\\Cases\\TestFrameWork\\assets\\MainScene.scene.meta": {
-    "time": 1628564332013.088
+    "time": 1628646950573.854
   }
 }

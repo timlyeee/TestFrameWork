@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, assert, ResolutionPolicy } from 'cc';
 const { ccclass, property } = _decorator;
 
 /** Code to contain a websocket connection and other parameters involved 
@@ -18,6 +18,7 @@ export class Client {
             address = address + ":" + port;
         }
         this.websocket = new WebSocket(address);
+        
     }
 
     //TODO: change to decorator mode
@@ -39,11 +40,11 @@ export class Client {
     or we should not open this function to be used outside
      */
     public wsOnMessage(receiveCallBack: Function) {
-        this.websocket.addEventListener("message", (event) => {
-            console.log("websocket message received"+event);
-            receiveCallBack(event);
-            TestNodeController.loopIsLocked = false
-        })
+        this.websocket.onmessage = () => {
+            console.log("message received");
+            if(TestNodeController.Instance.nodes.length)
+                TestNodeController.Instance.ShiftTest();
+        }
     }
 
 
@@ -54,11 +55,17 @@ export class Client {
 export class TestNode {
     public isHead: boolean;
     public testName: string;
-    public currentTest:  (...args: any[]) => Promise<any>;
-    constructor(_testName: string, f: (...args: any[]) => Promise<any>) {
+    public currentTest:  Function;
+    constructor(_testName: string, f:Function) {
 
         this.testName = _testName;
         this.currentTest = f;
+        // this.currentTest = () =>{
+        //     return new Promise<void>((resolve,reject)=>{
+        //         f();
+        //         resolve();
+        //     })
+        // };
 
         // ===== add this node into controller ======
         if (!TestNodeController.Instance)
@@ -72,40 +79,23 @@ export class TestNode {
 }
 
 /** TestNode controller */
-export class TestNodeController {
+export class TestNodeController extends EventTarget {
     public static Instance: TestNodeController;
     public static loopIsLocked: boolean = false;
     public nodes: TestNode[] = [];
     constructor() {
+        super();
         if (!TestNodeController.Instance)
             TestNodeController.Instance = this;
     }
     public addTest(t: TestNode) {
         this.nodes.push(t);
     }
-    public async testToEnd() {
-        console.log("this.node.length:"+this.nodes.length)
-        while (this.nodes.length != 0) {
-            if(!TestNodeController.loopIsLocked){
-                //lock the loop
-                TestNodeController.loopIsLocked = true;
-                console.log("start Test: "+this.nodes[0].testName);
-                // const ok = await this.nodes[0].currentTest();
-                // debugger;
-                // this.sendMessage(this.nodes[0]);
-                // this.nodes.splice(0,1);
-
-                await this.nodes[0].currentTest().then(()=>{
-                    this.sendMessage(this.nodes[0]);
-                    this.nodes.splice(0,1);
-                }).catch(()=>{
-                    console.log("sd");
-                })
-                
-            }
-            
-        }
-
+    public async ShiftTest() {
+        var n = this.nodes[0];
+        this.nodes.splice(0,1);
+        n.currentTest();
+        this.sendMessage(n);   
     }
     public sendMessage(t: TestNode){
         Client.Instance.websocket.send("this test is:" + t.testName);

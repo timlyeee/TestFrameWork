@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 31117.06449997425,
+    "mTimestamp": 8548.446300029755,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -389,7 +389,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 27404118.345699966,
+    "mTimestamp": 23417961.63990003,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -436,7 +436,7 @@
     ]
   },
   "file:///E:/Cases/TestFrameWork/assets/Scripts/Framework.ts": {
-    "mTimestamp": 1628591308717.115,
+    "mTimestamp": 1628670148521.0793,
     "chunkId": "assets/Scripts/Framework.js",
     "imports": [
       {
@@ -497,7 +497,7 @@
     ]
   },
   "file:///E:/Cases/TestFrameWork/assets/Scripts/Client.ts": {
-    "mTimestamp": 1628591689428.5469,
+    "mTimestamp": 1628669941562.456,
     "chunkId": "assets/Scripts/Client.js",
     "imports": [
       {
@@ -508,11 +508,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 70
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 74
           }
         }
       }
@@ -532,7 +532,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1628564294512,
+    "mTimestamp": 1628646734116,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {

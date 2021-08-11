@@ -19,42 +19,40 @@ declare class AutoTestConfigJson extends JsonAsset {
 }
 @ccclass('Framework')
 export class Framework extends Component {
-    public light : DirectionalLight|null =null;
+    public light: DirectionalLight | null = null;
 
     //static servers
-    tnd : TestNodeController = new TestNodeController(); 
-    client : Client|null; 
+    tnd: TestNodeController = new TestNodeController();
+    client: Client | null;
     //UI components
 
-    public content: Label|null = null;
+    public content: Label | null = null;
     //Connect Properties
     @property(JsonAsset)
     public autoTestConfig: AutoTestConfigJson | null = null;
     static isInit = false;
 
 
-    public test1(){
-        console.log(this.node.getChildByName("Test1").getComponent(Label))
+    public test1() {
+        console.log(this);
         this.node.getChildByName("Test1").getComponent(Label).string = "Done";
     }
-    public t1:TestNode;
+    public t1: TestNode;
 
-    public test2(){
-        return new Promise<void>((resolve,reject)=>{
-            this.node.getChildByName("Test2").getComponent(Label).color = Color.GREEN;
-            resolve();
-        })
+    public test2() {
+
+        this.node.getChildByName("Test2").getComponent(Label).color = Color.GREEN;
+
     }
-    public t2:TestNode;
-    
-    public test3(){
-        return new Promise<void>((resolve,reject)=>{
-            this.node.getChildByName("Test3").getComponent(Label).fontSize = 30;
-            resolve()
-        })
+    public t2: TestNode;
+
+    public test3() {
+
+        this.node.getChildByName("Test3").getComponent(Label).fontSize = 30;
+
     }
-    public t3:TestNode;
-    
+    public t3: TestNode;
+
 
     start() {
         // Default inited : TestNodeController
@@ -68,20 +66,27 @@ export class Framework extends Component {
         this.t1 = new TestNode(
             "test1",
             ()=>{
-               return new Promise<void>((resolve,reject)=>{
-                    try{this.test1();}
-                    catch(err){
-                        console.log(err.toString())
-                    }
+                return new Promise<void>((resolve,reject)=>{
+                    this.test1();
                     resolve();
-               }) 
+                })
             }
         )
-        
 
-        Client.Instance.wsOnMessage(()=>{
+        this.t2 = new TestNode(
+            "test2",
+            ()=>{
+                this.test2();
+            }
             
-            TestNodeController.loopIsLocked = false;
+        )
+        this.t3 = new TestNode(
+            "test3",
+            this.test3
+        )
+
+
+        Client.Instance.wsOnMessage(() => {
         })
         //TODO: way to inject into new scene
 
@@ -91,8 +96,8 @@ export class Framework extends Component {
         //this.startTest();
     }
 
-    public startTest(){
-        this.tnd.testToEnd();
+    public startTest() {
+        this.tnd.ShiftTest();
     }
 
     public nextScene() {
@@ -102,12 +107,5 @@ export class Framework extends Component {
     }
 
 }
-
-
-
-
-
-
-
 
 

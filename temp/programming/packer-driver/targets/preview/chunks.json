@@ -99,14 +99,31 @@
       }
     },
     "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1628564332339,
+    "mTimestamp": 1628646746035,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/cc"
   },
   "quick-pack:/cce/internal/code-quality/cr.js": {
     "imports": {},
     "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1628564332499
+    "mTimestamp": 1628646746060
+  },
+  "assets/Scripts/Client.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/Scripts/Client.js",
+    "mTimestamp": 1628669979537
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "__unresolved_0": "assets/Scripts/Client.js",
+      "__unresolved_1": "assets/Scripts/Framework.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1628670151938,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
   "assets/Scripts/Framework.js": {
     "imports": {
@@ -115,23 +132,6 @@
       "__unresolved_1": "assets/Scripts/Client.js"
     },
     "physicalLocation": "fs/0/assets/Scripts/Framework.js",
-    "mTimestamp": 1628591314078
-  },
-  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
-    "imports": {
-      "__unresolved_1": "assets/Scripts/Framework.js",
-      "__unresolved_0": "assets/Scripts/Client.js"
-    },
-    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1628591698350,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/prerequisite-imports"
-  },
-  "assets/Scripts/Client.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/Scripts/Client.js",
-    "mTimestamp": 1628591698402
+    "mTimestamp": 1628670151983
   }
 }
