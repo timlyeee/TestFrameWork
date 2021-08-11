@@ -19,18 +19,14 @@ declare class AutoTestConfigJson extends JsonAsset {
 }
 @ccclass('Framework')
 export class Framework extends Component {
-    public light: DirectionalLight | null = null;
-
     //static servers
     tnd: TestNodeController = new TestNodeController();
     client: Client | null;
     //UI components
 
-    public content: Label | null = null;
-    //Connect Properties
     @property(JsonAsset)
     public autoTestConfig: AutoTestConfigJson | null = null;
-    static isInit = false;
+        static isInit = false;
 
 
     public test1() {
@@ -98,12 +94,6 @@ export class Framework extends Component {
 
     public startTest() {
         this.tnd.ShiftTest();
-    }
-
-    public nextScene() {
-        director.loadScene("Demo_ui", () => {
-            this.client?.websocket.send("@scene Changed");
-        })
     }
 
 }

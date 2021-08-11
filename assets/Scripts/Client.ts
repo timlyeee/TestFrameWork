@@ -18,7 +18,6 @@ export class Client {
             address = address + ":" + port;
         }
         this.websocket = new WebSocket(address);
-        
     }
 
     //TODO: change to decorator mode
@@ -40,8 +39,9 @@ export class Client {
     or we should not open this function to be used outside
      */
     public wsOnMessage(receiveCallBack: Function) {
-        this.websocket.onmessage = () => {
+        this.websocket.onmessage = (event) => {
             console.log("message received");
+            receiveCallBack(event);
             if(TestNodeController.Instance.nodes.length)
                 TestNodeController.Instance.ShiftTest();
         }
@@ -60,14 +60,6 @@ export class TestNode {
 
         this.testName = _testName;
         this.currentTest = f;
-        // this.currentTest = () =>{
-        //     return new Promise<void>((resolve,reject)=>{
-        //         f();
-        //         resolve();
-        //     })
-        // };
-
-        // ===== add this node into controller ======
         if (!TestNodeController.Instance)
             new TestNodeController;
 
@@ -81,7 +73,6 @@ export class TestNode {
 /** TestNode controller */
 export class TestNodeController extends EventTarget {
     public static Instance: TestNodeController;
-    public static loopIsLocked: boolean = false;
     public nodes: TestNode[] = [];
     constructor() {
         super();
@@ -95,9 +86,9 @@ export class TestNodeController extends EventTarget {
         var n = this.nodes[0];
         this.nodes.splice(0,1);
         n.currentTest();
-        this.sendMessage(n);   
+        this.sendMessage(n); 
     }
     public sendMessage(t: TestNode){
-        Client.Instance.websocket.send("this test is:" + t.testName);
+        Client.Instance.websocket.send("this test is: " + t.testName);
     }
 }
